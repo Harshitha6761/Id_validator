@@ -1,0 +1,14 @@
+{
+    "validation_threshold": 0.7,
+    "ocr_min_fields": ["name", "roll_number", "college"],
+    "approved_colleges": [
+        "IIT Bombay",
+        "NIT Warangal",
+        "JNTU Hyderabad",
+        "IIT Delhi",
+        "IIT Madras",
+        "BITS Pilani",
+        "VIT University",
+        "SRM University"
+    ]
+}

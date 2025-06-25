@@ -1,0 +1,4 @@
+,genuine,suspicious,fake
+genuine,14,0.0,0.0
+fake,22,50.0,50.0
+suspicious,14,0.0,0.0

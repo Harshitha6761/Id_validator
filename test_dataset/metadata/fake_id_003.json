@@ -1,0 +1,14 @@
+{
+  "category": "fake",
+  "college": "Harvard College India",
+  "name": "Kavya Rao",
+  "roll_no": "4776559",
+  "fake_type": "fake_college",
+  "issues": [
+    "fake_college",
+    "poor_design",
+    "suspicious_fields"
+  ],
+  "expected_label": "fake",
+  "expected_status": "rejected"
+}

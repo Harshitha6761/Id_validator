@@ -1,0 +1,14 @@
+{
+  "category": "fake",
+  "college": "Anna University",
+  "name": "Suresh Iyer",
+  "roll_no": "6778049",
+  "fake_type": "template_mismatch",
+  "issues": [
+    "template_mismatch",
+    "poor_design",
+    "suspicious_fields"
+  ],
+  "expected_label": "fake",
+  "expected_status": "rejected"
+}

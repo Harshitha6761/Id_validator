@@ -1,0 +1,14 @@
+{
+  "category": "fake",
+  "college": "SRM University",
+  "name": "Vikram Reddy",
+  "roll_no": "9X77",
+  "fake_type": "poor_forgery",
+  "issues": [
+    "poor_forgery",
+    "poor_design",
+    "suspicious_fields"
+  ],
+  "expected_label": "fake",
+  "expected_status": "rejected"
+}

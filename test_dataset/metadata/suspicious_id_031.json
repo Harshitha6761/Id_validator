@@ -1,0 +1,13 @@
+{
+  "category": "suspicious",
+  "college": "Anna University",
+  "name": "Aditya Verma",
+  "roll_no": "19CS567",
+  "issues": [
+    "poor_quality",
+    "unusual_dimensions",
+    "low_contrast"
+  ],
+  "expected_label": "suspicious",
+  "expected_status": "manual_review"
+}

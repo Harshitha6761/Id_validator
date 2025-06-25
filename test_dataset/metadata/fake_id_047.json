@@ -1,0 +1,14 @@
+{
+  "category": "fake",
+  "college": "NIT Warangal",
+  "name": "Suresh Iyer",
+  "roll_no": "8Y34",
+  "fake_type": "template_mismatch",
+  "issues": [
+    "template_mismatch",
+    "poor_design",
+    "suspicious_fields"
+  ],
+  "expected_label": "fake",
+  "expected_status": "rejected"
+}

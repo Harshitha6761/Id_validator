@@ -1,0 +1,5035 @@
+{
+  "test_summary": {
+    "timestamp": "2025-06-21T22:58:37.868276",
+    "total_samples": 150,
+    "categories_tested": [
+      "genuine",
+      "suspicious",
+      "fake"
+    ],
+    "api_base_url": "http://localhost:8000",
+    "concurrent_testing": true,
+    "max_workers": 5,
+    "total_duration": 83.96919870376587
+  },
+  "performance_metrics": {
+    "total_requests": 150,
+    "successful_requests": 150,
+    "failed_requests": 0,
+    "total_time": 400.75114464759827,
+    "response_times": [
+      0.7372288703918457,
+      0.5253794193267822,
+      0.5637269020080566,
+      0.5528693199157715,
+      2.918776273727417,
+      3.482985019683838,
+      4.5992701053619385,
+      2.783158540725708,
+      5.687482833862305,
+      2.775311231613159,
+      2.7668352127075195,
+      2.7673730850219727,
+      2.217003107070923,
+      2.7828242778778076,
+      2.7828242778778076,
+      2.8007359504699707,
+      2.7742128372192383,
+      2.7742128372192383,
+      2.796356439590454,
+      2.796356439590454,
+      2.7808990478515625,
+      2.858696699142456,
+      2.858696699142456,
+      2.8456718921661377,
+      2.8456718921661377,
+      2.813957452774048,
+      2.758246421813965,
+      2.758246421813965,
+      2.789259433746338,
+      2.789259433746338,
+      2.8379178047180176,
+      2.9168214797973633,
+      2.9168214797973633,
+      2.860762119293213,
+      2.860762119293213,
+      2.8000121116638184,
+      2.7140321731567383,
+      2.7165679931640625,
+      2.798246145248413,
+      2.798246145248413,
+      2.8334996700286865,
+      2.8833539485931396,
+      2.8808181285858154,
+      2.8660197257995605,
+      2.8660197257995605,
+      2.8525705337524414,
+      2.802227020263672,
+      2.802227020263672,
+      2.730893611907959,
+      2.730893611907959,
+      0.5194597244262695,
+      2.558218479156494,
+      2.558218479156494,
+      2.549745559692383,
+      2.546523332595825,
+      2.755251169204712,
+      3.033304214477539,
+      3.033304214477539,
+      3.033304214477539,
+      3.033304214477539,
+      2.8250153064727783,
+      2.608304023742676,
+      2.608304023742676,
+      2.608304023742676,
+      2.608304023742676,
+      2.6604812145233154,
+      2.816375732421875,
+      2.816375732421875,
+      2.816375732421875,
+      2.816375732421875,
+      2.7731568813323975,
+      2.7649331092834473,
+      2.7668259143829346,
+      2.7668259143829346,
+      2.7668259143829346,
+      2.7749569416046143,
+      2.6308748722076416,
+      2.6308748722076416,
+      2.632767677307129,
+      2.6331980228424072,
+      2.6334660053253174,
+      2.558560371398926,
+      2.5608835220336914,
+      2.5608835220336914,
+      2.5608835220336914,
+      2.5582997798919678,
+      2.733546257019043,
+      2.733546257019043,
+      2.733546257019043,
+      2.733546257019043,
+      2.788862466812134,
+      2.630620002746582,
+      2.630620002746582,
+      2.630620002746582,
+      2.6361613273620605,
+      2.652517557144165,
+      2.819154739379883,
+      2.819154739379883,
+      2.8136134147644043,
+      2.819154739379883,
+      0.5358598232269287,
+      2.5977330207824707,
+      2.5916473865509033,
+      2.602369785308838,
+      2.5979034900665283,
+      2.625434398651123,
+      2.931427240371704,
+      2.931427240371704,
+      2.931427240371704,
+      2.931427240371704,
+      2.8550865650177,
+      2.5755763053894043,
+      2.5755763053894043,
+      2.5755763053894043,
+      2.5755763053894043,
+      2.5883216857910156,
+      2.6713039875030518,
+      2.6713039875030518,
+      2.6713039875030518,
+      2.6713039875030518,
+      2.6612398624420166,
+      2.7030179500579834,
+      2.7030179500579834,
+      2.7030179500579834,
+      2.7030179500579834,
+      2.7651002407073975,
+      2.585005521774292,
+      2.585005521774292,
+      2.585005521774292,
+      2.585005521774292,
+      2.5779449939727783,
+      2.6208436489105225,
+      2.6208436489105225,
+      2.6208436489105225,
+      2.6338605880737305,
+      2.557647943496704,
+      2.7167532444000244,
+      2.7167532444000244,
+      2.7037363052368164,
+      2.7167532444000244,
+      2.773942708969116,
+      2.6018869876861572,
+      2.6018869876861572,
+      2.6018869876861572,
+      2.6018869876861572,
+      2.6141645908355713,
+      2.5442054271698,
+      2.5444374084472656,
+      2.5444374084472656,
+      2.5444374084472656
+    ],
+    "errors": []
+  },
+  "overall_stats": {
+    "total_samples": 150,
+    "successful_api_calls": 150,
+    "failed_api_calls": 0,
+    "success_rate": 1.0,
+    "label_distribution": {
+      "fake": 122,
+      "genuine": 14,
+      "suspicious": 14
+    },
+    "status_distribution": {
+      "approved": 14,
+      "manual_review": 14,
+      "rejected": 122
+    },
+    "score_statistics": {
+      "count": 150,
+      "min": 0.04,
+      "max": 0.92,
+      "mean": 0.3218666666666667,
+      "median": 0.17,
+      "std_dev": 0.2650373828682916
+    },
+    "response_time_stats": {
+      "count": 150,
+      "min": 0.5194597244262695,
+      "max": 5.687482833862305,
+      "mean": 2.671674297650655,
+      "median": 2.7238234281539917,
+      "p95": 2.931427240371704,
+      "p99": 4.052290413379659
+    },
+    "accuracy": 0.76,
+    "correct_predictions": 114,
+    "total_predictions": 150,
+    "misclassifications": [
+      {
+        "filename": "genuine_id_001.jpg",
+        "expected": "genuine",
+        "predicted": "fake",
+        "score": 0.56
+      },
+      {
+        "filename": "genuine_id_002.jpg",
+        "expected": "genuine",
+        "predicted": "fake",
+        "score": 0.57
+      },
+      {
+        "filename": "genuine_id_003.jpg",
+        "expected": "genuine",
+        "predicted": "fake",
+        "score": 0.58
+      },
+      {
+        "filename": "genuine_id_006.jpg",
+        "expected": "genuine",
+        "predicted": "suspicious",
+        "score": 0.6
+      },
+      {
+        "filename": "genuine_id_007.jpg",
+        "expected": "genuine",
+        "predicted": "suspicious",
+        "score": 0.6
+      },
+      {
+        "filename": "genuine_id_008.jpg",
+        "expected": "genuine",
+        "predicted": "fake",
+        "score": 0.57
+      },
+      {
+        "filename": "genuine_id_009.jpg",
+        "expected": "genuine",
+        "predicted": "fake",
+        "score": 0.53
+      },
+      {
+        "filename": "genuine_id_010.jpg",
+        "expected": "genuine",
+        "predicted": "fake",
+        "score": 0.56
+      },
+      {
+        "filename": "genuine_id_011.jpg",
+        "expected": "genuine",
+        "predicted": "fake",
+        "score": 0.57
+      },
+      {
+        "filename": "genuine_id_012.jpg",
+        "expected": "genuine",
+        "predicted": "fake",
+        "score": 0.59
+      },
+      {
+        "filename": "genuine_id_013.jpg",
+        "expected": "genuine",
+        "predicted": "suspicious",
+        "score": 0.6
+      },
+      {
+        "filename": "genuine_id_014.jpg",
+        "expected": "genuine",
+        "predicted": "fake",
+        "score": 0.54
+      },
+      {
+        "filename": "genuine_id_016.jpg",
+        "expected": "genuine",
+        "predicted": "fake",
+        "score": 0.56
+      },
+      {
+        "filename": "genuine_id_017.jpg",
+        "expected": "genuine",
+        "predicted": "suspicious",
+        "score": 0.6
+      },
+      {
+        "filename": "genuine_id_018.jpg",
+        "expected": "genuine",
+        "predicted": "suspicious",
+        "score": 0.6
+      },
+      {
+        "filename": "genuine_id_021.jpg",
+        "expected": "genuine",
+        "predicted": "fake",
+        "score": 0.56
+      },
+      {
+        "filename": "genuine_id_022.jpg",
+        "expected": "genuine",
+        "predicted": "fake",
+        "score": 0.58
+      },
+      {
+        "filename": "genuine_id_023.jpg",
+        "expected": "genuine",
+        "predicted": "suspicious",
+        "score": 0.6
+      },
+      {
+        "filename": "genuine_id_024.jpg",
+        "expected": "genuine",
+        "predicted": "fake",
+        "score": 0.58
+      },
+      {
+        "filename": "genuine_id_026.jpg",
+        "expected": "genuine",
+        "predicted": "fake",
+        "score": 0.55
+      },
+      {
+        "filename": "genuine_id_027.jpg",
+        "expected": "genuine",
+        "predicted": "fake",
+        "score": 0.59
+      },
+      {
+        "filename": "genuine_id_028.jpg",
+        "expected": "genuine",
+        "predicted": "fake",
+        "score": 0.53
+      },
+      {
+        "filename": "genuine_id_030.jpg",
+        "expected": "genuine",
+        "predicted": "fake",
+        "score": 0.57
+      },
+      {
+        "filename": "genuine_id_031.jpg",
+        "expected": "genuine",
+        "predicted": "suspicious",
+        "score": 0.6
+      },
+      {
+        "filename": "genuine_id_032.jpg",
+        "expected": "genuine",
+        "predicted": "suspicious",
+        "score": 0.6
+      },
+      {
+        "filename": "genuine_id_033.jpg",
+        "expected": "genuine",
+        "predicted": "suspicious",
+        "score": 0.6
+      },
+      {
+        "filename": "genuine_id_034.jpg",
+        "expected": "genuine",
+        "predicted": "fake",
+        "score": 0.56
+      },
+      {
+        "filename": "genuine_id_036.jpg",
+        "expected": "genuine",
+        "predicted": "fake",
+        "score": 0.59
+      },
+      {
+        "filename": "genuine_id_039.jpg",
+        "expected": "genuine",
+        "predicted": "suspicious",
+        "score": 0.6
+      },
+      {
+        "filename": "genuine_id_040.jpg",
+        "expected": "genuine",
+        "predicted": "suspicious",
+        "score": 0.6
+      },
+      {
+        "filename": "genuine_id_041.jpg",
+        "expected": "genuine",
+        "predicted": "fake",
+        "score": 0.57
+      },
+      {
+        "filename": "genuine_id_043.jpg",
+        "expected": "genuine",
+        "predicted": "fake",
+        "score": 0.56
+      },
+      {
+        "filename": "genuine_id_045.jpg",
+        "expected": "genuine",
+        "predicted": "suspicious",
+        "score": 0.6
+      },
+      {
+        "filename": "genuine_id_047.jpg",
+        "expected": "genuine",
+        "predicted": "suspicious",
+        "score": 0.6
+      },
+      {
+        "filename": "genuine_id_048.jpg",
+        "expected": "genuine",
+        "predicted": "suspicious",
+        "score": 0.6
+      },
+      {
+        "filename": "genuine_id_049.jpg",
+        "expected": "genuine",
+        "predicted": "fake",
+        "score": 0.59
+      }
+    ],
+    "label_metrics": {
+      "fake": {
+        "precision": 0.4098360655737705,
+        "recall": 1.0,
+        "f1_score": 0.5813953488372093,
+        "true_positives": 50,
+        "false_positives": 72,
+        "false_negatives": 0
+      },
+      "genuine": {
+        "precision": 1.0,
+        "recall": 0.28,
+        "f1_score": 0.43750000000000006,
+        "true_positives": 14,
+        "false_positives": 0,
+        "false_negatives": 36
+      },
+      "suspicious": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positives": 0,
+        "false_positives": 14,
+        "false_negatives": 50
+      }
+    },
+    "performance": {
+      "total_requests": 150,
+      "successful_requests": 150,
+      "failed_requests": 0,
+      "success_rate": 1.0,
+      "average_response_time": 2.671674297650655,
+      "requests_per_second": 0.3742971218008696
+    },
+    "total_processing_time": 83.96919870376587
+  },
+  "category_stats": {
+    "genuine": {
+      "total_samples": 50,
+      "successful_api_calls": 50,
+      "failed_api_calls": 0,
+      "success_rate": 1.0,
+      "label_distribution": {
+        "fake": 22,
+        "genuine": 14,
+        "suspicious": 14
+      },
+      "status_distribution": {
+        "approved": 14,
+        "manual_review": 14,
+        "rejected": 22
+      },
+      "score_statistics": {
+        "count": 50,
+        "min": 0.53,
+        "max": 0.92,
+        "mean": 0.672,
+        "median": 0.6,
+        "std_dev": 0.1511857892036909
+      },
+      "response_time_stats": {
+        "count": 50,
+        "min": 0.5253794193267822,
+        "max": 5.687482833862305,
+        "mean": 2.7290448188781737,
+        "median": 2.798246145248413,
+        "p95": 3.229091084003447,
+        "p99": 5.154258596897122
+      },
+      "accuracy": 0.28,
+      "correct_predictions": 14,
+      "total_predictions": 50,
+      "misclassifications": [
+        {
+          "filename": "genuine_id_001.jpg",
+          "expected": "genuine",
+          "predicted": "fake",
+          "score": 0.56
+        },
+        {
+          "filename": "genuine_id_002.jpg",
+          "expected": "genuine",
+          "predicted": "fake",
+          "score": 0.57
+        },
+        {
+          "filename": "genuine_id_003.jpg",
+          "expected": "genuine",
+          "predicted": "fake",
+          "score": 0.58
+        },
+        {
+          "filename": "genuine_id_006.jpg",
+          "expected": "genuine",
+          "predicted": "suspicious",
+          "score": 0.6
+        },
+        {
+          "filename": "genuine_id_007.jpg",
+          "expected": "genuine",
+          "predicted": "suspicious",
+          "score": 0.6
+        },
+        {
+          "filename": "genuine_id_008.jpg",
+          "expected": "genuine",
+          "predicted": "fake",
+          "score": 0.57
+        },
+        {
+          "filename": "genuine_id_009.jpg",
+          "expected": "genuine",
+          "predicted": "fake",
+          "score": 0.53
+        },
+        {
+          "filename": "genuine_id_010.jpg",
+          "expected": "genuine",
+          "predicted": "fake",
+          "score": 0.56
+        },
+        {
+          "filename": "genuine_id_011.jpg",
+          "expected": "genuine",
+          "predicted": "fake",
+          "score": 0.57
+        },
+        {
+          "filename": "genuine_id_012.jpg",
+          "expected": "genuine",
+          "predicted": "fake",
+          "score": 0.59
+        },
+        {
+          "filename": "genuine_id_013.jpg",
+          "expected": "genuine",
+          "predicted": "suspicious",
+          "score": 0.6
+        },
+        {
+          "filename": "genuine_id_014.jpg",
+          "expected": "genuine",
+          "predicted": "fake",
+          "score": 0.54
+        },
+        {
+          "filename": "genuine_id_016.jpg",
+          "expected": "genuine",
+          "predicted": "fake",
+          "score": 0.56
+        },
+        {
+          "filename": "genuine_id_017.jpg",
+          "expected": "genuine",
+          "predicted": "suspicious",
+          "score": 0.6
+        },
+        {
+          "filename": "genuine_id_018.jpg",
+          "expected": "genuine",
+          "predicted": "suspicious",
+          "score": 0.6
+        },
+        {
+          "filename": "genuine_id_021.jpg",
+          "expected": "genuine",
+          "predicted": "fake",
+          "score": 0.56
+        },
+        {
+          "filename": "genuine_id_022.jpg",
+          "expected": "genuine",
+          "predicted": "fake",
+          "score": 0.58
+        },
+        {
+          "filename": "genuine_id_023.jpg",
+          "expected": "genuine",
+          "predicted": "suspicious",
+          "score": 0.6
+        },
+        {
+          "filename": "genuine_id_024.jpg",
+          "expected": "genuine",
+          "predicted": "fake",
+          "score": 0.58
+        },
+        {
+          "filename": "genuine_id_026.jpg",
+          "expected": "genuine",
+          "predicted": "fake",
+          "score": 0.55
+        },
+        {
+          "filename": "genuine_id_027.jpg",
+          "expected": "genuine",
+          "predicted": "fake",
+          "score": 0.59
+        },
+        {
+          "filename": "genuine_id_028.jpg",
+          "expected": "genuine",
+          "predicted": "fake",
+          "score": 0.53
+        },
+        {
+          "filename": "genuine_id_030.jpg",
+          "expected": "genuine",
+          "predicted": "fake",
+          "score": 0.57
+        },
+        {
+          "filename": "genuine_id_031.jpg",
+          "expected": "genuine",
+          "predicted": "suspicious",
+          "score": 0.6
+        },
+        {
+          "filename": "genuine_id_032.jpg",
+          "expected": "genuine",
+          "predicted": "suspicious",
+          "score": 0.6
+        },
+        {
+          "filename": "genuine_id_033.jpg",
+          "expected": "genuine",
+          "predicted": "suspicious",
+          "score": 0.6
+        },
+        {
+          "filename": "genuine_id_034.jpg",
+          "expected": "genuine",
+          "predicted": "fake",
+          "score": 0.56
+        },
+        {
+          "filename": "genuine_id_036.jpg",
+          "expected": "genuine",
+          "predicted": "fake",
+          "score": 0.59
+        },
+        {
+          "filename": "genuine_id_039.jpg",
+          "expected": "genuine",
+          "predicted": "suspicious",
+          "score": 0.6
+        },
+        {
+          "filename": "genuine_id_040.jpg",
+          "expected": "genuine",
+          "predicted": "suspicious",
+          "score": 0.6
+        },
+        {
+          "filename": "genuine_id_041.jpg",
+          "expected": "genuine",
+          "predicted": "fake",
+          "score": 0.57
+        },
+        {
+          "filename": "genuine_id_043.jpg",
+          "expected": "genuine",
+          "predicted": "fake",
+          "score": 0.56
+        },
+        {
+          "filename": "genuine_id_045.jpg",
+          "expected": "genuine",
+          "predicted": "suspicious",
+          "score": 0.6
+        },
+        {
+          "filename": "genuine_id_047.jpg",
+          "expected": "genuine",
+          "predicted": "suspicious",
+          "score": 0.6
+        },
+        {
+          "filename": "genuine_id_048.jpg",
+          "expected": "genuine",
+          "predicted": "suspicious",
+          "score": 0.6
+        },
+        {
+          "filename": "genuine_id_049.jpg",
+          "expected": "genuine",
+          "predicted": "fake",
+          "score": 0.59
+        }
+      ],
+      "label_metrics": {
+        "fake": {
+          "precision": 0.0,
+          "recall": 0,
+          "f1_score": 0,
+          "true_positives": 0,
+          "false_positives": 22,
+          "false_negatives": 0
+        },
+        "genuine": {
+          "precision": 1.0,
+          "recall": 0.28,
+          "f1_score": 0.43750000000000006,
+          "true_positives": 14,
+          "false_positives": 0,
+          "false_negatives": 36
+        },
+        "suspicious": {
+          "precision": 0.0,
+          "recall": 0,
+          "f1_score": 0,
+          "true_positives": 0,
+          "false_positives": 14,
+          "false_negatives": 0
+        }
+      },
+      "processing_time": 28.170527935028076
+    },
+    "suspicious": {
+      "total_samples": 50,
+      "successful_api_calls": 50,
+      "failed_api_calls": 0,
+      "success_rate": 1.0,
+      "label_distribution": {
+        "fake": 50
+      },
+      "status_distribution": {
+        "rejected": 50
+      },
+      "score_statistics": {
+        "count": 50,
+        "min": 0.08,
+        "max": 0.23,
+        "mean": 0.1576,
+        "median": 0.15,
+        "std_dev": 0.023260722785197283
+      },
+      "response_time_stats": {
+        "count": 50,
+        "min": 0.5194597244262695,
+        "max": 3.033304214477539,
+        "mean": 2.6710746002197268,
+        "median": 2.697013735771179,
+        "p95": 3.033304214477539,
+        "p99": 3.033304214477539
+      },
+      "accuracy": 1.0,
+      "correct_predictions": 50,
+      "total_predictions": 50,
+      "misclassifications": [],
+      "label_metrics": {
+        "fake": {
+          "precision": 0.0,
+          "recall": 0,
+          "f1_score": 0,
+          "true_positives": 0,
+          "false_positives": 50,
+          "false_negatives": 0
+        },
+        "suspicious": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1_score": 0,
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 50
+        }
+      },
+      "processing_time": 27.158217668533325
+    },
+    "fake": {
+      "total_samples": 50,
+      "successful_api_calls": 50,
+      "failed_api_calls": 0,
+      "success_rate": 1.0,
+      "label_distribution": {
+        "fake": 50
+      },
+      "status_distribution": {
+        "rejected": 50
+      },
+      "score_statistics": {
+        "count": 50,
+        "min": 0.04,
+        "max": 0.21,
+        "mean": 0.136,
+        "median": 0.15,
+        "std_dev": 0.04819179369552286
+      },
+      "response_time_stats": {
+        "count": 50,
+        "min": 0.5358598232269287,
+        "max": 2.931427240371704,
+        "mean": 2.614903473854065,
+        "median": 2.617504119873047,
+        "p95": 2.931427240371704,
+        "p99": 2.931427240371704
+      },
+      "accuracy": 1.0,
+      "correct_predictions": 50,
+      "total_predictions": 50,
+      "misclassifications": [],
+      "label_metrics": {
+        "fake": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "true_positives": 50,
+          "false_positives": 0,
+          "false_negatives": 0
+        }
+      },
+      "processing_time": 26.554636001586914
+    }
+  },
+  "confusion_matrix": {
+    "genuine": {
+      "genuine": 14,
+      "fake": 22,
+      "suspicious": 14
+    },
+    "suspicious": {
+      "fake": 50
+    },
+    "fake": {
+      "fake": 50
+    }
+  },
+  "detailed_results": [
+    {
+      "user_id": "genuine_test_000",
+      "validation_score": 0.92,
+      "label": "genuine",
+      "status": "approved",
+      "reason": "High confidence genuine ID - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 0.7372288703918457,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_000.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "IIT Bombay",
+        "name": "Priya Patel",
+        "roll_no": "92EE7618",
+        "course": "B.Sc Computer Science",
+        "year": "2024",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 0
+    },
+    {
+      "user_id": "genuine_test_001",
+      "validation_score": 0.56,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Below threshold confidence - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.918776273727417,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_001.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "SRM University",
+        "name": "Akash Pandey",
+        "roll_no": "27ME1590",
+        "course": "MCA",
+        "year": "2021",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 1
+    },
+    {
+      "user_id": "genuine_test_002",
+      "validation_score": 0.57,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Below threshold confidence - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 3.482985019683838,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_002.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "IIT Bombay",
+        "name": "Suresh Iyer",
+        "roll_no": "95EE5235",
+        "course": "M.Tech Software Engineering",
+        "year": "2022",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 2
+    },
+    {
+      "user_id": "genuine_test_003",
+      "validation_score": 0.58,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Below threshold confidence - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 5.687482833862305,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_003.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "Anna University",
+        "name": "Arjun Sharma",
+        "roll_no": "39CS9404",
+        "course": "B.Com",
+        "year": "2024",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 3
+    },
+    {
+      "user_id": "genuine_test_004",
+      "validation_score": 0.92,
+      "label": "genuine",
+      "status": "approved",
+      "reason": "High confidence genuine ID - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 4.5992701053619385,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_004.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "BITS Pilani",
+        "name": "Meera Joshi",
+        "roll_no": "69CS3175",
+        "course": "MBA",
+        "year": "2024",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 4
+    },
+    {
+      "user_id": "genuine_test_005",
+      "validation_score": 0.92,
+      "label": "genuine",
+      "status": "approved",
+      "reason": "High confidence genuine ID - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 0.5253794193267822,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_005.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "IIT Madras",
+        "name": "Kavya Rao",
+        "roll_no": "19EE6409",
+        "course": "B.Tech Electronics",
+        "year": "2024",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 5
+    },
+    {
+      "user_id": "genuine_test_006",
+      "validation_score": 0.6,
+      "label": "suspicious",
+      "status": "manual_review",
+      "reason": "Moderate confidence, requires manual review - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 0.5637269020080566,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_006.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "JNTU Hyderabad",
+        "name": "Karthik Nair",
+        "roll_no": "50ME3404",
+        "course": "B.Sc Computer Science",
+        "year": "2023",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 6
+    },
+    {
+      "user_id": "genuine_test_007",
+      "validation_score": 0.6,
+      "label": "suspicious",
+      "status": "manual_review",
+      "reason": "Moderate confidence, requires manual review - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 0.5528693199157715,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_007.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "IIT Madras",
+        "name": "Meera Joshi",
+        "roll_no": "42ME4186",
+        "course": "B.Sc Computer Science",
+        "year": "2022",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 7
+    },
+    {
+      "user_id": "genuine_test_008",
+      "validation_score": 0.57,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Below threshold confidence - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.783158540725708,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_008.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "IIT Delhi",
+        "name": "Meera Joshi",
+        "roll_no": "64ME4844",
+        "course": "B.Sc Computer Science",
+        "year": "2025",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 8
+    },
+    {
+      "user_id": "genuine_test_009",
+      "validation_score": 0.53,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Below threshold confidence - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.775311231613159,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_009.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "NIT Warangal",
+        "name": "Suresh Iyer",
+        "roll_no": "18ME6861",
+        "course": "M.Sc Data Science",
+        "year": "2023",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 9
+    },
+    {
+      "user_id": "genuine_test_010",
+      "validation_score": 0.56,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Below threshold confidence - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.7668352127075195,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_010.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "JNTU Hyderabad",
+        "name": "Akash Pandey",
+        "roll_no": "31CS5727",
+        "course": "MCA",
+        "year": "2023",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 10
+    },
+    {
+      "user_id": "genuine_test_011",
+      "validation_score": 0.57,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Below threshold confidence - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.7673730850219727,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_011.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "IIT Bombay",
+        "name": "Sneha Singh",
+        "roll_no": "57CS6290",
+        "course": "M.Sc Data Science",
+        "year": "2024",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 11
+    },
+    {
+      "user_id": "genuine_test_012",
+      "validation_score": 0.59,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Below threshold confidence - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.217003107070923,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_012.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "Osmania University",
+        "name": "Sneha Singh",
+        "roll_no": "48ME5644",
+        "course": "M.Tech Software Engineering",
+        "year": "2025",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 12
+    },
+    {
+      "user_id": "genuine_test_013",
+      "validation_score": 0.6,
+      "label": "suspicious",
+      "status": "manual_review",
+      "reason": "Moderate confidence, requires manual review - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.7828242778778076,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_013.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "IIT Madras",
+        "name": "Nikhil Desai",
+        "roll_no": "74CS6954",
+        "course": "B.Com",
+        "year": "2025",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 13
+    },
+    {
+      "user_id": "genuine_test_014",
+      "validation_score": 0.54,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Below threshold confidence - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.7828242778778076,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_014.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "NIT Warangal",
+        "name": "Sneha Singh",
+        "roll_no": "53CS4264",
+        "course": "MBA",
+        "year": "2023",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 14
+    },
+    {
+      "user_id": "genuine_test_015",
+      "validation_score": 0.9,
+      "label": "genuine",
+      "status": "approved",
+      "reason": "High confidence genuine ID - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.8007359504699707,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_015.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "NIT Warangal",
+        "name": "Ananya Gupta",
+        "roll_no": "25ME1270",
+        "course": "B.Tech Electronics",
+        "year": "2025",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 15
+    },
+    {
+      "user_id": "genuine_test_016",
+      "validation_score": 0.56,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Below threshold confidence - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.7742128372192383,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_016.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "IIT Madras",
+        "name": "Akash Pandey",
+        "roll_no": "73EC6324",
+        "course": "M.Sc Data Science",
+        "year": "2022",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 16
+    },
+    {
+      "user_id": "genuine_test_017",
+      "validation_score": 0.6,
+      "label": "suspicious",
+      "status": "manual_review",
+      "reason": "Moderate confidence, requires manual review - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.7742128372192383,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_017.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "IIT Delhi",
+        "name": "Aditya Verma",
+        "roll_no": "77ME7062",
+        "course": "B.Com",
+        "year": "2023",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 17
+    },
+    {
+      "user_id": "genuine_test_018",
+      "validation_score": 0.6,
+      "label": "suspicious",
+      "status": "manual_review",
+      "reason": "Moderate confidence, requires manual review - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.796356439590454,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_018.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "IIT Bombay",
+        "name": "Nikhil Desai",
+        "roll_no": "82EC3661",
+        "course": "B.Tech Electronics",
+        "year": "2024",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 18
+    },
+    {
+      "user_id": "genuine_test_019",
+      "validation_score": 0.92,
+      "label": "genuine",
+      "status": "approved",
+      "reason": "High confidence genuine ID - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.796356439590454,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_019.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "IIT Bombay",
+        "name": "Priya Patel",
+        "roll_no": "25ME7452",
+        "course": "B.Com",
+        "year": "2022",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 19
+    },
+    {
+      "user_id": "genuine_test_020",
+      "validation_score": 0.89,
+      "label": "genuine",
+      "status": "approved",
+      "reason": "High confidence genuine ID - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.7808990478515625,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_020.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "JNTU Hyderabad",
+        "name": "Priya Patel",
+        "roll_no": "14CS8945",
+        "course": "B.Tech Computer Science",
+        "year": "2024",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 20
+    },
+    {
+      "user_id": "genuine_test_021",
+      "validation_score": 0.56,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Below threshold confidence - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.858696699142456,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_021.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "NIT Warangal",
+        "name": "Rohit Kumar",
+        "roll_no": "78EC4697",
+        "course": "B.Tech Electronics",
+        "year": "2025",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 21
+    },
+    {
+      "user_id": "genuine_test_022",
+      "validation_score": 0.58,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Below threshold confidence - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.858696699142456,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_022.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "Anna University",
+        "name": "Priya Patel",
+        "roll_no": "99EE2108",
+        "course": "B.Sc Computer Science",
+        "year": "2024",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 22
+    },
+    {
+      "user_id": "genuine_test_023",
+      "validation_score": 0.6,
+      "label": "suspicious",
+      "status": "manual_review",
+      "reason": "Moderate confidence, requires manual review - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.8456718921661377,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_023.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "IIT Bombay",
+        "name": "Priya Patel",
+        "roll_no": "88EC1794",
+        "course": "B.Tech Electronics",
+        "year": "2023",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 23
+    },
+    {
+      "user_id": "genuine_test_024",
+      "validation_score": 0.58,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Below threshold confidence - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.8456718921661377,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_024.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "Osmania University",
+        "name": "Suresh Iyer",
+        "roll_no": "36EE2541",
+        "course": "B.Com",
+        "year": "2021",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 24
+    },
+    {
+      "user_id": "genuine_test_025",
+      "validation_score": 0.92,
+      "label": "genuine",
+      "status": "approved",
+      "reason": "High confidence genuine ID - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.813957452774048,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_025.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "VIT University",
+        "name": "Kavya Rao",
+        "roll_no": "38EE6809",
+        "course": "B.Tech Computer Science",
+        "year": "2023",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 25
+    },
+    {
+      "user_id": "genuine_test_026",
+      "validation_score": 0.55,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Below threshold confidence - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.758246421813965,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_026.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "JNTU Hyderabad",
+        "name": "Akash Pandey",
+        "roll_no": "31CS7163",
+        "course": "B.Sc Computer Science",
+        "year": "2025",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 26
+    },
+    {
+      "user_id": "genuine_test_027",
+      "validation_score": 0.59,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Below threshold confidence - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.758246421813965,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_027.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "IIT Madras",
+        "name": "Priya Patel",
+        "roll_no": "64CS9872",
+        "course": "M.Com",
+        "year": "2023",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 27
+    },
+    {
+      "user_id": "genuine_test_028",
+      "validation_score": 0.53,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Below threshold confidence - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.789259433746338,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_028.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "Anna University",
+        "name": "Sneha Singh",
+        "roll_no": "66ME9508",
+        "course": "B.Com",
+        "year": "2021",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 28
+    },
+    {
+      "user_id": "genuine_test_029",
+      "validation_score": 0.92,
+      "label": "genuine",
+      "status": "approved",
+      "reason": "High confidence genuine ID - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.789259433746338,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_029.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "IIT Bombay",
+        "name": "Pooja Agarwal",
+        "roll_no": "61CS2637",
+        "course": "M.Com",
+        "year": "2022",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 29
+    },
+    {
+      "user_id": "genuine_test_030",
+      "validation_score": 0.57,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Below threshold confidence - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.8379178047180176,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_030.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "IIT Bombay",
+        "name": "Rohit Kumar",
+        "roll_no": "18EE2095",
+        "course": "B.Tech Mechanical",
+        "year": "2025",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 30
+    },
+    {
+      "user_id": "genuine_test_031",
+      "validation_score": 0.6,
+      "label": "suspicious",
+      "status": "manual_review",
+      "reason": "Moderate confidence, requires manual review - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.9168214797973633,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_031.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "VIT University",
+        "name": "Nikhil Desai",
+        "roll_no": "28EE9881",
+        "course": "M.Com",
+        "year": "2023",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 31
+    },
+    {
+      "user_id": "genuine_test_032",
+      "validation_score": 0.6,
+      "label": "suspicious",
+      "status": "manual_review",
+      "reason": "Moderate confidence, requires manual review - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.9168214797973633,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_032.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "VIT University",
+        "name": "Ananya Gupta",
+        "roll_no": "80CS2165",
+        "course": "B.Tech Computer Science",
+        "year": "2022",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 32
+    },
+    {
+      "user_id": "genuine_test_033",
+      "validation_score": 0.6,
+      "label": "suspicious",
+      "status": "manual_review",
+      "reason": "Moderate confidence, requires manual review - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.860762119293213,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_033.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "IIT Madras",
+        "name": "Riya Malhotra",
+        "roll_no": "18CS2640",
+        "course": "B.Com",
+        "year": "2025",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 33
+    },
+    {
+      "user_id": "genuine_test_034",
+      "validation_score": 0.56,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Below threshold confidence - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.860762119293213,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_034.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "IIT Madras",
+        "name": "Sneha Singh",
+        "roll_no": "65EC4568",
+        "course": "B.Sc Computer Science",
+        "year": "2022",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 34
+    },
+    {
+      "user_id": "genuine_test_035",
+      "validation_score": 0.9,
+      "label": "genuine",
+      "status": "approved",
+      "reason": "High confidence genuine ID - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.8000121116638184,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_035.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "IIT Bombay",
+        "name": "Rohit Kumar",
+        "roll_no": "89EC4140",
+        "course": "MBA",
+        "year": "2022",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 35
+    },
+    {
+      "user_id": "genuine_test_036",
+      "validation_score": 0.59,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Below threshold confidence - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.7140321731567383,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_036.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "SRM University",
+        "name": "Vikram Reddy",
+        "roll_no": "94EC1193",
+        "course": "B.Tech Mechanical",
+        "year": "2023",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 36
+    },
+    {
+      "user_id": "genuine_test_037",
+      "validation_score": 0.92,
+      "label": "genuine",
+      "status": "approved",
+      "reason": "High confidence genuine ID - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.7165679931640625,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_037.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "Osmania University",
+        "name": "Rohit Kumar",
+        "roll_no": "72CS4878",
+        "course": "B.Sc Computer Science",
+        "year": "2022",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 37
+    },
+    {
+      "user_id": "genuine_test_038",
+      "validation_score": 0.89,
+      "label": "genuine",
+      "status": "approved",
+      "reason": "High confidence genuine ID - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.798246145248413,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_038.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "SRM University",
+        "name": "Riya Malhotra",
+        "roll_no": "96EE9316",
+        "course": "B.Sc Computer Science",
+        "year": "2024",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 38
+    },
+    {
+      "user_id": "genuine_test_039",
+      "validation_score": 0.6,
+      "label": "suspicious",
+      "status": "manual_review",
+      "reason": "Moderate confidence, requires manual review - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.798246145248413,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_039.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "NIT Warangal",
+        "name": "Suresh Iyer",
+        "roll_no": "13CS3116",
+        "course": "M.Tech Software Engineering",
+        "year": "2021",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 39
+    },
+    {
+      "user_id": "genuine_test_040",
+      "validation_score": 0.6,
+      "label": "suspicious",
+      "status": "manual_review",
+      "reason": "Moderate confidence, requires manual review - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.8334996700286865,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_040.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "NIT Warangal",
+        "name": "Ananya Gupta",
+        "roll_no": "18ME5217",
+        "course": "MBA",
+        "year": "2025",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 40
+    },
+    {
+      "user_id": "genuine_test_041",
+      "validation_score": 0.57,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Below threshold confidence - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.8833539485931396,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_041.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "IIT Madras",
+        "name": "Akash Pandey",
+        "roll_no": "67ME8044",
+        "course": "BCA",
+        "year": "2025",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 41
+    },
+    {
+      "user_id": "genuine_test_042",
+      "validation_score": 0.91,
+      "label": "genuine",
+      "status": "approved",
+      "reason": "High confidence genuine ID - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.8808181285858154,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_042.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "NIT Warangal",
+        "name": "Priya Patel",
+        "roll_no": "43CS2360",
+        "course": "B.Sc Computer Science",
+        "year": "2024",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 42
+    },
+    {
+      "user_id": "genuine_test_043",
+      "validation_score": 0.56,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Below threshold confidence - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.8660197257995605,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_043.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "JNTU Hyderabad",
+        "name": "Meera Joshi",
+        "roll_no": "28EE9167",
+        "course": "MCA",
+        "year": "2022",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 43
+    },
+    {
+      "user_id": "genuine_test_044",
+      "validation_score": 0.92,
+      "label": "genuine",
+      "status": "approved",
+      "reason": "High confidence genuine ID - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.8660197257995605,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_044.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "VIT University",
+        "name": "Vikram Reddy",
+        "roll_no": "28EE5353",
+        "course": "B.Tech Mechanical",
+        "year": "2025",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 44
+    },
+    {
+      "user_id": "genuine_test_045",
+      "validation_score": 0.6,
+      "label": "suspicious",
+      "status": "manual_review",
+      "reason": "Moderate confidence, requires manual review - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.8525705337524414,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_045.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "VIT University",
+        "name": "Nikhil Desai",
+        "roll_no": "90ME5771",
+        "course": "B.Tech Mechanical",
+        "year": "2022",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 45
+    },
+    {
+      "user_id": "genuine_test_046",
+      "validation_score": 0.89,
+      "label": "genuine",
+      "status": "approved",
+      "reason": "High confidence genuine ID - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.802227020263672,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_046.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "JNTU Hyderabad",
+        "name": "Riya Malhotra",
+        "roll_no": "39CS2288",
+        "course": "MCA",
+        "year": "2021",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 46
+    },
+    {
+      "user_id": "genuine_test_047",
+      "validation_score": 0.6,
+      "label": "suspicious",
+      "status": "manual_review",
+      "reason": "Moderate confidence, requires manual review - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.802227020263672,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_047.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "IIT Madras",
+        "name": "Pooja Agarwal",
+        "roll_no": "29EE8792",
+        "course": "B.Tech Mechanical",
+        "year": "2022",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 47
+    },
+    {
+      "user_id": "genuine_test_048",
+      "validation_score": 0.6,
+      "label": "suspicious",
+      "status": "manual_review",
+      "reason": "Moderate confidence, requires manual review - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.730893611907959,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_048.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "BITS Pilani",
+        "name": "Karthik Nair",
+        "roll_no": "69CS3037",
+        "course": "BCA",
+        "year": "2024",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 48
+    },
+    {
+      "user_id": "genuine_test_049",
+      "validation_score": 0.59,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Below threshold confidence - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.730893611907959,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "genuine",
+      "expected_label": "genuine",
+      "expected_status": "approved",
+      "filename": "genuine_id_049.jpg",
+      "test_metadata": {
+        "category": "genuine",
+        "college": "IIT Delhi",
+        "name": "Vikram Reddy",
+        "roll_no": "95EC4616",
+        "course": "B.Sc Computer Science",
+        "year": "2025",
+        "expected_label": "genuine",
+        "expected_status": "approved"
+      },
+      "sample_index": 49
+    },
+    {
+      "user_id": "suspicious_test_000",
+      "validation_score": 0.14,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 0.5194597244262695,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_000.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "VIT University",
+        "name": "Meera Joshi",
+        "roll_no": "90CS666",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 0
+    },
+    {
+      "user_id": "suspicious_test_001",
+      "validation_score": 0.15,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.558218479156494,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_001.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "IIT Madras",
+        "name": "Aditya Verma",
+        "roll_no": "24CS481",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 1
+    },
+    {
+      "user_id": "suspicious_test_002",
+      "validation_score": 0.17,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.558218479156494,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_002.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "Osmania University",
+        "name": "Arjun Sharma",
+        "roll_no": "99CS477",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 2
+    },
+    {
+      "user_id": "suspicious_test_003",
+      "validation_score": 0.15,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.549745559692383,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_003.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "BITS Pilani",
+        "name": "Priya Patel",
+        "roll_no": "11CS853",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 3
+    },
+    {
+      "user_id": "suspicious_test_004",
+      "validation_score": 0.17,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.546523332595825,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_004.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "VIT University",
+        "name": "Rohit Kumar",
+        "roll_no": "32EC496",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 4
+    },
+    {
+      "user_id": "suspicious_test_005",
+      "validation_score": 0.16,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.755251169204712,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_005.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "JNTU Hyderabad",
+        "name": "Nikhil Desai",
+        "roll_no": "95CS526",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 5
+    },
+    {
+      "user_id": "suspicious_test_006",
+      "validation_score": 0.15,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 3.033304214477539,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_006.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "IIT Bombay",
+        "name": "Meera Joshi",
+        "roll_no": "93EC141",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 6
+    },
+    {
+      "user_id": "suspicious_test_007",
+      "validation_score": 0.15,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 3.033304214477539,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_007.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "IIT Bombay",
+        "name": "Pooja Agarwal",
+        "roll_no": "86CS955",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 7
+    },
+    {
+      "user_id": "suspicious_test_008",
+      "validation_score": 0.16,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 3.033304214477539,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_008.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "IIT Delhi",
+        "name": "Nikhil Desai",
+        "roll_no": "99CS654",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 8
+    },
+    {
+      "user_id": "suspicious_test_009",
+      "validation_score": 0.09,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 3.033304214477539,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_009.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "IIT Delhi",
+        "name": "Vikram Reddy",
+        "roll_no": "65CS972",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 9
+    },
+    {
+      "user_id": "suspicious_test_010",
+      "validation_score": 0.16,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.8250153064727783,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_010.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "BITS Pilani",
+        "name": "Arjun Sharma",
+        "roll_no": "96EC131",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 10
+    },
+    {
+      "user_id": "suspicious_test_011",
+      "validation_score": 0.08,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.608304023742676,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_011.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "SRM University",
+        "name": "Rohit Kumar",
+        "roll_no": "46CS813",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 11
+    },
+    {
+      "user_id": "suspicious_test_012",
+      "validation_score": 0.15,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.608304023742676,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_012.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "IIT Madras",
+        "name": "Kavya Rao",
+        "roll_no": "87EC916",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 12
+    },
+    {
+      "user_id": "suspicious_test_013",
+      "validation_score": 0.13,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.608304023742676,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_013.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "VIT University",
+        "name": "Ananya Gupta",
+        "roll_no": "66EC259",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 13
+    },
+    {
+      "user_id": "suspicious_test_014",
+      "validation_score": 0.18,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.608304023742676,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_014.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "VIT University",
+        "name": "Ananya Gupta",
+        "roll_no": "75EC101",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 14
+    },
+    {
+      "user_id": "suspicious_test_015",
+      "validation_score": 0.15,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.6604812145233154,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_015.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "NIT Warangal",
+        "name": "Akash Pandey",
+        "roll_no": "54EC626",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 15
+    },
+    {
+      "user_id": "suspicious_test_016",
+      "validation_score": 0.15,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.816375732421875,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_016.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "Anna University",
+        "name": "Kavya Rao",
+        "roll_no": "88CS931",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 16
+    },
+    {
+      "user_id": "suspicious_test_017",
+      "validation_score": 0.2,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.816375732421875,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_017.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "SRM University",
+        "name": "Vikram Reddy",
+        "roll_no": "14CS486",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 17
+    },
+    {
+      "user_id": "suspicious_test_018",
+      "validation_score": 0.19,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.816375732421875,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_018.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "IIT Delhi",
+        "name": "Pooja Agarwal",
+        "roll_no": "34EC918",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 18
+    },
+    {
+      "user_id": "suspicious_test_019",
+      "validation_score": 0.18,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.816375732421875,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_019.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "IIT Delhi",
+        "name": "Sneha Singh",
+        "roll_no": "97EC948",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 19
+    },
+    {
+      "user_id": "suspicious_test_020",
+      "validation_score": 0.18,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.7731568813323975,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_020.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "IIT Delhi",
+        "name": "Ananya Gupta",
+        "roll_no": "89CS216",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 20
+    },
+    {
+      "user_id": "suspicious_test_021",
+      "validation_score": 0.16,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.7649331092834473,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_021.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "BITS Pilani",
+        "name": "Karthik Nair",
+        "roll_no": "60CS792",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 21
+    },
+    {
+      "user_id": "suspicious_test_022",
+      "validation_score": 0.14,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.7668259143829346,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_022.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "Anna University",
+        "name": "Nikhil Desai",
+        "roll_no": "52EC724",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 22
+    },
+    {
+      "user_id": "suspicious_test_023",
+      "validation_score": 0.17,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.7668259143829346,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_023.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "Osmania University",
+        "name": "Pooja Agarwal",
+        "roll_no": "38CS917",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 23
+    },
+    {
+      "user_id": "suspicious_test_024",
+      "validation_score": 0.17,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.7668259143829346,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_024.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "SRM University",
+        "name": "Sneha Singh",
+        "roll_no": "22CS731",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 24
+    },
+    {
+      "user_id": "suspicious_test_025",
+      "validation_score": 0.15,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.7749569416046143,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_025.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "IIT Delhi",
+        "name": "Sneha Singh",
+        "roll_no": "43EC189",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 25
+    },
+    {
+      "user_id": "suspicious_test_026",
+      "validation_score": 0.15,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.632767677307129,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_026.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "IIT Delhi",
+        "name": "Meera Joshi",
+        "roll_no": "52CS142",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 26
+    },
+    {
+      "user_id": "suspicious_test_027",
+      "validation_score": 0.16,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.6308748722076416,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_027.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "SRM University",
+        "name": "Suresh Iyer",
+        "roll_no": "29CS540",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 27
+    },
+    {
+      "user_id": "suspicious_test_028",
+      "validation_score": 0.15,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.6308748722076416,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_028.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "Anna University",
+        "name": "Nikhil Desai",
+        "roll_no": "31CS600",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 28
+    },
+    {
+      "user_id": "suspicious_test_029",
+      "validation_score": 0.15,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.6331980228424072,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_029.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "IIT Delhi",
+        "name": "Kavya Rao",
+        "roll_no": "93CS187",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 29
+    },
+    {
+      "user_id": "suspicious_test_030",
+      "validation_score": 0.15,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.6334660053253174,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_030.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "IIT Madras",
+        "name": "Akash Pandey",
+        "roll_no": "21CS746",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 30
+    },
+    {
+      "user_id": "suspicious_test_031",
+      "validation_score": 0.17,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.5608835220336914,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_031.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "Anna University",
+        "name": "Aditya Verma",
+        "roll_no": "19CS567",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 31
+    },
+    {
+      "user_id": "suspicious_test_032",
+      "validation_score": 0.19,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.5608835220336914,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_032.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "JNTU Hyderabad",
+        "name": "Akash Pandey",
+        "roll_no": "27EC449",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 32
+    },
+    {
+      "user_id": "suspicious_test_033",
+      "validation_score": 0.18,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.5608835220336914,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_033.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "Osmania University",
+        "name": "Riya Malhotra",
+        "roll_no": "29EC455",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 33
+    },
+    {
+      "user_id": "suspicious_test_034",
+      "validation_score": 0.16,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.558560371398926,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_034.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "BITS Pilani",
+        "name": "Ananya Gupta",
+        "roll_no": "93CS906",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 34
+    },
+    {
+      "user_id": "suspicious_test_035",
+      "validation_score": 0.16,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.5582997798919678,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_035.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "IIT Delhi",
+        "name": "Rohit Kumar",
+        "roll_no": "59EC316",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 35
+    },
+    {
+      "user_id": "suspicious_test_036",
+      "validation_score": 0.15,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.733546257019043,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_036.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "NIT Warangal",
+        "name": "Riya Malhotra",
+        "roll_no": "40EC743",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 36
+    },
+    {
+      "user_id": "suspicious_test_037",
+      "validation_score": 0.16,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.733546257019043,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_037.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "Osmania University",
+        "name": "Meera Joshi",
+        "roll_no": "92EC391",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 37
+    },
+    {
+      "user_id": "suspicious_test_038",
+      "validation_score": 0.15,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.733546257019043,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_038.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "JNTU Hyderabad",
+        "name": "Riya Malhotra",
+        "roll_no": "68CS383",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 38
+    },
+    {
+      "user_id": "suspicious_test_039",
+      "validation_score": 0.15,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.733546257019043,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_039.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "Osmania University",
+        "name": "Kavya Rao",
+        "roll_no": "36EC885",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 39
+    },
+    {
+      "user_id": "suspicious_test_040",
+      "validation_score": 0.23,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.788862466812134,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_040.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "IIT Bombay",
+        "name": "Riya Malhotra",
+        "roll_no": "70CS663",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 40
+    },
+    {
+      "user_id": "suspicious_test_041",
+      "validation_score": 0.15,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.630620002746582,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_041.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "Anna University",
+        "name": "Pooja Agarwal",
+        "roll_no": "93EC101",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 41
+    },
+    {
+      "user_id": "suspicious_test_042",
+      "validation_score": 0.15,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.630620002746582,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_042.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "Anna University",
+        "name": "Sneha Singh",
+        "roll_no": "73CS499",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 42
+    },
+    {
+      "user_id": "suspicious_test_043",
+      "validation_score": 0.15,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.630620002746582,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_043.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "Anna University",
+        "name": "Nikhil Desai",
+        "roll_no": "67CS359",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 43
+    },
+    {
+      "user_id": "suspicious_test_044",
+      "validation_score": 0.14,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.6361613273620605,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_044.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "VIT University",
+        "name": "Vikram Reddy",
+        "roll_no": "93CS523",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 44
+    },
+    {
+      "user_id": "suspicious_test_045",
+      "validation_score": 0.15,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.652517557144165,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_045.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "NIT Warangal",
+        "name": "Nikhil Desai",
+        "roll_no": "85CS345",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 45
+    },
+    {
+      "user_id": "suspicious_test_046",
+      "validation_score": 0.16,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.819154739379883,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_046.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "Anna University",
+        "name": "Vikram Reddy",
+        "roll_no": "50CS768",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 46
+    },
+    {
+      "user_id": "suspicious_test_047",
+      "validation_score": 0.15,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.819154739379883,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_047.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "IIT Madras",
+        "name": "Rohit Kumar",
+        "roll_no": "22CS425",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 47
+    },
+    {
+      "user_id": "suspicious_test_048",
+      "validation_score": 0.15,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.819154739379883,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_048.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "NIT Warangal",
+        "name": "Riya Malhotra",
+        "roll_no": "62CS258",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 48
+    },
+    {
+      "user_id": "suspicious_test_049",
+      "validation_score": 0.19,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.8136134147644043,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "suspicious",
+      "expected_label": "suspicious",
+      "expected_status": "manual_review",
+      "filename": "suspicious_id_049.jpg",
+      "test_metadata": {
+        "category": "suspicious",
+        "college": "IIT Bombay",
+        "name": "Karthik Nair",
+        "roll_no": "40EC623",
+        "issues": [
+          "poor_quality",
+          "unusual_dimensions",
+          "low_contrast"
+        ],
+        "expected_label": "suspicious",
+        "expected_status": "manual_review"
+      },
+      "sample_index": 49
+    },
+    {
+      "user_id": "fake_test_000",
+      "validation_score": 0.19,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 0.5358598232269287,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "fake_id_000.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "college": "NIT Warangal",
+        "name": "Kavya Rao",
+        "roll_no": "9Z12",
+        "fake_type": "poor_forgery",
+        "issues": [
+          "poor_forgery",
+          "poor_design",
+          "suspicious_fields"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 0
+    },
+    {
+      "user_id": "fake_test_001",
+      "validation_score": 0.18,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.602369785308838,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "fake_id_001.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "college": "Osmania University",
+        "name": "Rohit Kumar",
+        "roll_no": "1545335",
+        "fake_type": "template_mismatch",
+        "issues": [
+          "template_mismatch",
+          "poor_design",
+          "suspicious_fields"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 1
+    },
+    {
+      "user_id": "fake_test_002",
+      "validation_score": 0.04,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.5979034900665283,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "non_id_002.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "fake_type": "non_id",
+        "issues": [
+          "not_an_id",
+          "inappropriate_content"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 2
+    },
+    {
+      "user_id": "fake_test_003",
+      "validation_score": 0.15,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.5977330207824707,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "fake_id_003.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "college": "Harvard College India",
+        "name": "Kavya Rao",
+        "roll_no": "4776559",
+        "fake_type": "fake_college",
+        "issues": [
+          "fake_college",
+          "poor_design",
+          "suspicious_fields"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 3
+    },
+    {
+      "user_id": "fake_test_004",
+      "validation_score": 0.05,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.5916473865509033,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "non_id_004.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "fake_type": "non_id",
+        "issues": [
+          "not_an_id",
+          "inappropriate_content"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 4
+    },
+    {
+      "user_id": "fake_test_005",
+      "validation_score": 0.18,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.625434398651123,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "fake_id_005.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "college": "IIT Bombay",
+        "name": "Pooja Agarwal",
+        "roll_no": "6Y61",
+        "fake_type": "poor_forgery",
+        "issues": [
+          "poor_forgery",
+          "poor_design",
+          "suspicious_fields"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 5
+    },
+    {
+      "user_id": "fake_test_006",
+      "validation_score": 0.15,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.931427240371704,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "fake_id_006.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "college": "BITS Pilani",
+        "name": "Sneha Singh",
+        "roll_no": "8930097",
+        "fake_type": "poor_forgery",
+        "issues": [
+          "poor_forgery",
+          "poor_design",
+          "suspicious_fields"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 6
+    },
+    {
+      "user_id": "fake_test_007",
+      "validation_score": 0.21,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.931427240371704,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "fake_id_007.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "college": "NIT Warangal",
+        "name": "Ananya Gupta",
+        "roll_no": "2Z46",
+        "fake_type": "poor_forgery",
+        "issues": [
+          "poor_forgery",
+          "poor_design",
+          "suspicious_fields"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 7
+    },
+    {
+      "user_id": "fake_test_008",
+      "validation_score": 0.15,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.931427240371704,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "fake_id_008.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "college": "Anna University",
+        "name": "Suresh Iyer",
+        "roll_no": "6778049",
+        "fake_type": "template_mismatch",
+        "issues": [
+          "template_mismatch",
+          "poor_design",
+          "suspicious_fields"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 8
+    },
+    {
+      "user_id": "fake_test_009",
+      "validation_score": 0.19,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.931427240371704,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "fake_id_009.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "college": "Cambridge Institute",
+        "name": "Karthik Nair",
+        "roll_no": "1X22",
+        "fake_type": "fake_college",
+        "issues": [
+          "fake_college",
+          "poor_design",
+          "suspicious_fields"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 9
+    },
+    {
+      "user_id": "fake_test_010",
+      "validation_score": 0.12,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.8550865650177,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "non_id_010.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "fake_type": "non_id",
+        "issues": [
+          "not_an_id",
+          "inappropriate_content"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 10
+    },
+    {
+      "user_id": "fake_test_011",
+      "validation_score": 0.1,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.5755763053894043,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "non_id_011.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "fake_type": "non_id",
+        "issues": [
+          "not_an_id",
+          "inappropriate_content"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 11
+    },
+    {
+      "user_id": "fake_test_012",
+      "validation_score": 0.16,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.5755763053894043,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "fake_id_012.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "college": "Cambridge Institute",
+        "name": "Ananya Gupta",
+        "roll_no": "5Y77",
+        "fake_type": "fake_college",
+        "issues": [
+          "fake_college",
+          "poor_design",
+          "suspicious_fields"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 12
+    },
+    {
+      "user_id": "fake_test_013",
+      "validation_score": 0.13,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.5755763053894043,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "fake_id_013.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "college": "VIT University",
+        "name": "Pooja Agarwal",
+        "roll_no": "2X94",
+        "fake_type": "template_mismatch",
+        "issues": [
+          "template_mismatch",
+          "poor_design",
+          "suspicious_fields"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 13
+    },
+    {
+      "user_id": "fake_test_014",
+      "validation_score": 0.19,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.5755763053894043,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "fake_id_014.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "college": "BITS Pilani",
+        "name": "Nikhil Desai",
+        "roll_no": "2858664",
+        "fake_type": "poor_forgery",
+        "issues": [
+          "poor_forgery",
+          "poor_design",
+          "suspicious_fields"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 14
+    },
+    {
+      "user_id": "fake_test_015",
+      "validation_score": 0.15,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.5883216857910156,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "fake_id_015.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "college": "Stanford University Delhi",
+        "name": "Riya Malhotra",
+        "roll_no": "2X70",
+        "fake_type": "fake_college",
+        "issues": [
+          "fake_college",
+          "poor_design",
+          "suspicious_fields"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 15
+    },
+    {
+      "user_id": "fake_test_016",
+      "validation_score": 0.15,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.6713039875030518,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "fake_id_016.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "college": "Yale University Pune",
+        "name": "Riya Malhotra",
+        "roll_no": "9X23",
+        "fake_type": "fake_college",
+        "issues": [
+          "fake_college",
+          "poor_design",
+          "suspicious_fields"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 16
+    },
+    {
+      "user_id": "fake_test_017",
+      "validation_score": 0.1,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.6713039875030518,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "non_id_017.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "fake_type": "non_id",
+        "issues": [
+          "not_an_id",
+          "inappropriate_content"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 17
+    },
+    {
+      "user_id": "fake_test_018",
+      "validation_score": 0.05,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.6713039875030518,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "non_id_018.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "fake_type": "non_id",
+        "issues": [
+          "not_an_id",
+          "inappropriate_content"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 18
+    },
+    {
+      "user_id": "fake_test_019",
+      "validation_score": 0.18,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.6713039875030518,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "non_id_019.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "fake_type": "non_id",
+        "issues": [
+          "not_an_id",
+          "inappropriate_content"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 19
+    },
+    {
+      "user_id": "fake_test_020",
+      "validation_score": 0.04,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.6612398624420166,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "non_id_020.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "fake_type": "non_id",
+        "issues": [
+          "not_an_id",
+          "inappropriate_content"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 20
+    },
+    {
+      "user_id": "fake_test_021",
+      "validation_score": 0.15,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.7030179500579834,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "fake_id_021.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "college": "VIT University",
+        "name": "Riya Malhotra",
+        "roll_no": "4342285",
+        "fake_type": "poor_forgery",
+        "issues": [
+          "poor_forgery",
+          "poor_design",
+          "suspicious_fields"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 21
+    },
+    {
+      "user_id": "fake_test_022",
+      "validation_score": 0.16,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.7030179500579834,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "fake_id_022.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "college": "BITS Pilani",
+        "name": "Priya Patel",
+        "roll_no": "5103433",
+        "fake_type": "template_mismatch",
+        "issues": [
+          "template_mismatch",
+          "poor_design",
+          "suspicious_fields"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 22
+    },
+    {
+      "user_id": "fake_test_023",
+      "validation_score": 0.18,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.7030179500579834,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "fake_id_023.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "college": "IIT Madras",
+        "name": "Akash Pandey",
+        "roll_no": "5964207",
+        "fake_type": "template_mismatch",
+        "issues": [
+          "template_mismatch",
+          "poor_design",
+          "suspicious_fields"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 23
+    },
+    {
+      "user_id": "fake_test_024",
+      "validation_score": 0.16,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.7030179500579834,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "fake_id_024.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "college": "IIT Bombay",
+        "name": "Vikram Reddy",
+        "roll_no": "1X90",
+        "fake_type": "poor_forgery",
+        "issues": [
+          "poor_forgery",
+          "poor_design",
+          "suspicious_fields"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 24
+    },
+    {
+      "user_id": "fake_test_025",
+      "validation_score": 0.16,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.7651002407073975,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "fake_id_025.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "college": "JNTU Hyderabad",
+        "name": "Meera Joshi",
+        "roll_no": "2088287",
+        "fake_type": "poor_forgery",
+        "issues": [
+          "poor_forgery",
+          "poor_design",
+          "suspicious_fields"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 25
+    },
+    {
+      "user_id": "fake_test_026",
+      "validation_score": 0.11,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.585005521774292,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "non_id_026.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "fake_type": "non_id",
+        "issues": [
+          "not_an_id",
+          "inappropriate_content"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 26
+    },
+    {
+      "user_id": "fake_test_027",
+      "validation_score": 0.07,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.585005521774292,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "non_id_027.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "fake_type": "non_id",
+        "issues": [
+          "not_an_id",
+          "inappropriate_content"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 27
+    },
+    {
+      "user_id": "fake_test_028",
+      "validation_score": 0.11,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.585005521774292,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "fake_id_028.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "college": "Anna University",
+        "name": "Riya Malhotra",
+        "roll_no": "5Z46",
+        "fake_type": "template_mismatch",
+        "issues": [
+          "template_mismatch",
+          "poor_design",
+          "suspicious_fields"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 28
+    },
+    {
+      "user_id": "fake_test_029",
+      "validation_score": 0.15,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.585005521774292,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "fake_id_029.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "college": "BITS Pilani",
+        "name": "Meera Joshi",
+        "roll_no": "8X41",
+        "fake_type": "template_mismatch",
+        "issues": [
+          "template_mismatch",
+          "poor_design",
+          "suspicious_fields"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 29
+    },
+    {
+      "user_id": "fake_test_030",
+      "validation_score": 0.14,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.5779449939727783,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "non_id_030.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "fake_type": "non_id",
+        "issues": [
+          "not_an_id",
+          "inappropriate_content"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 30
+    },
+    {
+      "user_id": "fake_test_031",
+      "validation_score": 0.05,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.6208436489105225,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "non_id_031.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "fake_type": "non_id",
+        "issues": [
+          "not_an_id",
+          "inappropriate_content"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 31
+    },
+    {
+      "user_id": "fake_test_032",
+      "validation_score": 0.11,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.6338605880737305,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "non_id_032.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "fake_type": "non_id",
+        "issues": [
+          "not_an_id",
+          "inappropriate_content"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 32
+    },
+    {
+      "user_id": "fake_test_033",
+      "validation_score": 0.19,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.6208436489105225,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "fake_id_033.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "college": "JNTU Hyderabad",
+        "name": "Meera Joshi",
+        "roll_no": "2827176",
+        "fake_type": "poor_forgery",
+        "issues": [
+          "poor_forgery",
+          "poor_design",
+          "suspicious_fields"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 33
+    },
+    {
+      "user_id": "fake_test_034",
+      "validation_score": 0.16,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.6208436489105225,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "fake_id_034.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "college": "Anna University",
+        "name": "Nikhil Desai",
+        "roll_no": "9040072",
+        "fake_type": "poor_forgery",
+        "issues": [
+          "poor_forgery",
+          "poor_design",
+          "suspicious_fields"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 34
+    },
+    {
+      "user_id": "fake_test_035",
+      "validation_score": 0.15,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.557647943496704,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "fake_id_035.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "college": "SRM University",
+        "name": "Riya Malhotra",
+        "roll_no": "8021417",
+        "fake_type": "template_mismatch",
+        "issues": [
+          "template_mismatch",
+          "poor_design",
+          "suspicious_fields"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 35
+    },
+    {
+      "user_id": "fake_test_036",
+      "validation_score": 0.17,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.7167532444000244,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "fake_id_036.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "college": "Osmania University",
+        "name": "Priya Patel",
+        "roll_no": "6934133",
+        "fake_type": "poor_forgery",
+        "issues": [
+          "poor_forgery",
+          "poor_design",
+          "suspicious_fields"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 36
+    },
+    {
+      "user_id": "fake_test_037",
+      "validation_score": 0.16,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.7167532444000244,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "fake_id_037.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "college": "Cambridge Institute",
+        "name": "Vikram Reddy",
+        "roll_no": "5Y68",
+        "fake_type": "fake_college",
+        "issues": [
+          "fake_college",
+          "poor_design",
+          "suspicious_fields"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 37
+    },
+    {
+      "user_id": "fake_test_038",
+      "validation_score": 0.2,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.7167532444000244,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "fake_id_038.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "college": "BITS Pilani",
+        "name": "Priya Patel",
+        "roll_no": "2X57",
+        "fake_type": "poor_forgery",
+        "issues": [
+          "poor_forgery",
+          "poor_design",
+          "suspicious_fields"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 38
+    },
+    {
+      "user_id": "fake_test_039",
+      "validation_score": 0.16,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.7037363052368164,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "fake_id_039.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "college": "MIT India",
+        "name": "Ananya Gupta",
+        "roll_no": "4Y49",
+        "fake_type": "fake_college",
+        "issues": [
+          "fake_college",
+          "poor_design",
+          "suspicious_fields"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 39
+    },
+    {
+      "user_id": "fake_test_040",
+      "validation_score": 0.15,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.773942708969116,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "fake_id_040.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "college": "Cambridge Institute",
+        "name": "Riya Malhotra",
+        "roll_no": "2Z72",
+        "fake_type": "fake_college",
+        "issues": [
+          "fake_college",
+          "poor_design",
+          "suspicious_fields"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 40
+    },
+    {
+      "user_id": "fake_test_041",
+      "validation_score": 0.15,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.6018869876861572,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "fake_id_041.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "college": "Harvard College India",
+        "name": "Vikram Reddy",
+        "roll_no": "7111894",
+        "fake_type": "fake_college",
+        "issues": [
+          "fake_college",
+          "poor_design",
+          "suspicious_fields"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 41
+    },
+    {
+      "user_id": "fake_test_042",
+      "validation_score": 0.19,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.6018869876861572,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "fake_id_042.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "college": "JNTU Hyderabad",
+        "name": "Priya Patel",
+        "roll_no": "2080931",
+        "fake_type": "template_mismatch",
+        "issues": [
+          "template_mismatch",
+          "poor_design",
+          "suspicious_fields"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 42
+    },
+    {
+      "user_id": "fake_test_043",
+      "validation_score": 0.1,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.6018869876861572,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "non_id_043.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "fake_type": "non_id",
+        "issues": [
+          "not_an_id",
+          "inappropriate_content"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 43
+    },
+    {
+      "user_id": "fake_test_044",
+      "validation_score": 0.04,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.6018869876861572,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "non_id_044.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "fake_type": "non_id",
+        "issues": [
+          "not_an_id",
+          "inappropriate_content"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 44
+    },
+    {
+      "user_id": "fake_test_045",
+      "validation_score": 0.16,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.6141645908355713,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "fake_id_045.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "college": "Harvard College India",
+        "name": "Riya Malhotra",
+        "roll_no": "4011346",
+        "fake_type": "fake_college",
+        "issues": [
+          "fake_college",
+          "poor_design",
+          "suspicious_fields"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 45
+    },
+    {
+      "user_id": "fake_test_046",
+      "validation_score": 0.1,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.5442054271698,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "non_id_046.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "fake_type": "non_id",
+        "issues": [
+          "not_an_id",
+          "inappropriate_content"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 46
+    },
+    {
+      "user_id": "fake_test_047",
+      "validation_score": 0.18,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.5444374084472656,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "fake_id_047.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "college": "NIT Warangal",
+        "name": "Suresh Iyer",
+        "roll_no": "8Y34",
+        "fake_type": "template_mismatch",
+        "issues": [
+          "template_mismatch",
+          "poor_design",
+          "suspicious_fields"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 47
+    },
+    {
+      "user_id": "fake_test_048",
+      "validation_score": 0.08,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.5444374084472656,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "non_id_048.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "fake_type": "non_id",
+        "issues": [
+          "not_an_id",
+          "inappropriate_content"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 48
+    },
+    {
+      "user_id": "fake_test_049",
+      "validation_score": 0.05,
+      "label": "fake",
+      "status": "rejected",
+      "reason": "Low confidence - likely fake or manipulated - Missing required fields - College not in approved list",
+      "threshold": 0.7,
+      "response_time": 2.5444374084472656,
+      "api_status": "success",
+      "attempt": 1,
+      "original_category": "fake",
+      "expected_label": "fake",
+      "expected_status": "rejected",
+      "filename": "non_id_049.jpg",
+      "test_metadata": {
+        "category": "fake",
+        "fake_type": "non_id",
+        "issues": [
+          "not_an_id",
+          "inappropriate_content"
+        ],
+        "expected_label": "fake",
+        "expected_status": "rejected"
+      },
+      "sample_index": 49
+    }
+  ]
+}

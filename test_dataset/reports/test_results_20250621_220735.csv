@@ -1,0 +1,76 @@
+filename,original_category,predicted_label,predicted_status,validation_score,expected_label,expected_status,response_time,reason,api_status,correct_prediction
+genuine_id_000.jpg,genuine,fake,rejected,0.32,genuine,approved,0.7927272319793701,Below threshold confidence - Missing required fields - College not in approved list,success,False
+genuine_id_001.jpg,genuine,fake,rejected,0.26,genuine,approved,3.091290235519409,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,False
+genuine_id_002.jpg,genuine,fake,rejected,0.32,genuine,approved,3.3914060592651367,Below threshold confidence - Missing required fields - College not in approved list,success,False
+genuine_id_003.jpg,genuine,suspicious,manual_review,0.65,genuine,approved,3.977280855178833,"Moderate confidence, requires manual review - College not in approved list",success,False
+genuine_id_004.jpg,genuine,fake,rejected,0.33,genuine,approved,4.56342339515686,Below threshold confidence - Missing required fields - College not in approved list,success,False
+genuine_id_005.jpg,genuine,fake,rejected,0.37,genuine,approved,0.3731985092163086,Below threshold confidence - Missing required fields - College not in approved list,success,False
+genuine_id_006.jpg,genuine,fake,rejected,0.33,genuine,approved,0.3169212341308594,Below threshold confidence - Missing required fields - College not in approved list,success,False
+genuine_id_007.jpg,genuine,suspicious,manual_review,0.64,genuine,approved,0.30249643325805664,"Moderate confidence, requires manual review - College not in approved list",success,False
+genuine_id_008.jpg,genuine,fake,rejected,0.33,genuine,approved,0.30616211891174316,Below threshold confidence - Missing required fields - College not in approved list,success,False
+genuine_id_009.jpg,genuine,suspicious,manual_review,0.63,genuine,approved,0.30774450302124023,"Moderate confidence, requires manual review - College not in approved list",success,False
+genuine_id_010.jpg,genuine,fake,rejected,0.3,genuine,approved,0.37488293647766113,Below threshold confidence - Missing required fields - College not in approved list,success,False
+genuine_id_011.jpg,genuine,suspicious,manual_review,0.64,genuine,approved,1.5191352367401123,"Moderate confidence, requires manual review - College not in approved list",success,False
+genuine_id_012.jpg,genuine,fake,rejected,0.33,genuine,approved,1.4823904037475586,Below threshold confidence - Missing required fields - College not in approved list,success,False
+genuine_id_013.jpg,genuine,fake,rejected,0.33,genuine,approved,1.4725830554962158,Below threshold confidence - Missing required fields - College not in approved list,success,False
+genuine_id_014.jpg,genuine,fake,rejected,0.28,genuine,approved,1.466620683670044,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,False
+genuine_id_015.jpg,genuine,suspicious,manual_review,0.69,genuine,approved,1.156174659729004,"Moderate confidence, requires manual review - College not in approved list",success,False
+genuine_id_016.jpg,genuine,fake,rejected,0.35,genuine,approved,1.4882404804229736,Below threshold confidence - Missing required fields - College not in approved list,success,False
+genuine_id_017.jpg,genuine,fake,rejected,0.29,genuine,approved,1.488173246383667,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,False
+genuine_id_018.jpg,genuine,fake,rejected,0.33,genuine,approved,1.4820914268493652,Below threshold confidence - Missing required fields - College not in approved list,success,False
+genuine_id_019.jpg,genuine,suspicious,manual_review,0.61,genuine,approved,1.4829177856445312,"Moderate confidence, requires manual review - College not in approved list",success,False
+genuine_id_020.jpg,genuine,suspicious,manual_review,0.67,genuine,approved,1.4829177856445312,"Moderate confidence, requires manual review - College not in approved list",success,False
+genuine_id_021.jpg,genuine,fake,rejected,0.34,genuine,approved,1.4318273067474365,Below threshold confidence - Missing required fields - College not in approved list,success,False
+genuine_id_022.jpg,genuine,fake,rejected,0.3,genuine,approved,1.4318273067474365,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,False
+genuine_id_023.jpg,genuine,fake,rejected,0.33,genuine,approved,1.4311206340789795,Below threshold confidence - Missing required fields - College not in approved list,success,False
+genuine_id_024.jpg,genuine,fake,rejected,0.33,genuine,approved,1.1337618827819824,Below threshold confidence - Missing required fields - College not in approved list,success,False
+suspicious_id_000.jpg,suspicious,fake,rejected,0.24,suspicious,manual_review,0.2732052803039551,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+suspicious_id_001.jpg,suspicious,fake,rejected,0.24,suspicious,manual_review,1.4049098491668701,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+suspicious_id_002.jpg,suspicious,fake,rejected,0.22,suspicious,manual_review,1.400144100189209,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+suspicious_id_003.jpg,suspicious,fake,rejected,0.23,suspicious,manual_review,1.400144100189209,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+suspicious_id_004.jpg,suspicious,fake,rejected,0.21,suspicious,manual_review,1.3976218700408936,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+suspicious_id_005.jpg,suspicious,fake,rejected,0.22,suspicious,manual_review,1.4459035396575928,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+suspicious_id_006.jpg,suspicious,fake,rejected,0.18,suspicious,manual_review,1.4846174716949463,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+suspicious_id_007.jpg,suspicious,fake,rejected,0.14,suspicious,manual_review,1.4846174716949463,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+suspicious_id_008.jpg,suspicious,fake,rejected,0.19,suspicious,manual_review,1.4846174716949463,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+suspicious_id_009.jpg,suspicious,fake,rejected,0.21,suspicious,manual_review,1.482337474822998,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+suspicious_id_010.jpg,suspicious,fake,rejected,0.19,suspicious,manual_review,1.4999337196350098,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+suspicious_id_011.jpg,suspicious,fake,rejected,0.24,suspicious,manual_review,1.5318303108215332,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+suspicious_id_012.jpg,suspicious,fake,rejected,0.23,suspicious,manual_review,1.5318303108215332,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+suspicious_id_013.jpg,suspicious,fake,rejected,0.21,suspicious,manual_review,1.5318303108215332,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+suspicious_id_014.jpg,suspicious,fake,rejected,0.2,suspicious,manual_review,1.5318303108215332,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+suspicious_id_015.jpg,suspicious,fake,rejected,0.15,suspicious,manual_review,1.4585676193237305,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+suspicious_id_016.jpg,suspicious,fake,rejected,0.16,suspicious,manual_review,1.4418799877166748,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+suspicious_id_017.jpg,suspicious,fake,rejected,0.18,suspicious,manual_review,1.4418799877166748,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+suspicious_id_018.jpg,suspicious,fake,rejected,0.19,suspicious,manual_review,1.4418799877166748,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+suspicious_id_019.jpg,suspicious,fake,rejected,0.22,suspicious,manual_review,1.4418799877166748,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+suspicious_id_020.jpg,suspicious,fake,rejected,0.15,suspicious,manual_review,1.4545037746429443,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+suspicious_id_021.jpg,suspicious,fake,rejected,0.2,suspicious,manual_review,1.5170493125915527,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+suspicious_id_022.jpg,suspicious,fake,rejected,0.24,suspicious,manual_review,1.5170493125915527,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+suspicious_id_023.jpg,suspicious,fake,rejected,0.22,suspicious,manual_review,1.5170493125915527,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+suspicious_id_024.jpg,suspicious,fake,rejected,0.23,suspicious,manual_review,1.5170493125915527,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+fake_id_000.jpg,fake,fake,rejected,0.22,fake,rejected,0.26913976669311523,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+non_id_001.jpg,fake,fake,rejected,0.11,fake,rejected,1.3854646682739258,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+non_id_002.jpg,fake,fake,rejected,0.19,fake,rejected,1.3830499649047852,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+fake_id_003.jpg,fake,fake,rejected,0.28,fake,rejected,1.3830499649047852,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+fake_id_004.jpg,fake,fake,rejected,0.22,fake,rejected,1.3804893493652344,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+fake_id_005.jpg,fake,fake,rejected,0.2,fake,rejected,1.4092462062835693,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+non_id_006.jpg,fake,fake,rejected,0.25,fake,rejected,1.497983694076538,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+fake_id_007.jpg,fake,fake,rejected,0.24,fake,rejected,1.497983694076538,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+fake_id_008.jpg,fake,fake,rejected,0.27,fake,rejected,1.497983694076538,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+fake_id_009.jpg,fake,fake,rejected,0.29,fake,rejected,1.5006372928619385,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+non_id_010.jpg,fake,fake,rejected,0.12,fake,rejected,1.4572927951812744,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+fake_id_011.jpg,fake,fake,rejected,0.23,fake,rejected,1.477386713027954,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+fake_id_012.jpg,fake,fake,rejected,0.24,fake,rejected,1.477386713027954,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+fake_id_013.jpg,fake,fake,rejected,0.2,fake,rejected,1.4747331142425537,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+non_id_014.jpg,fake,fake,rejected,0.23,fake,rejected,1.4747331142425537,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+fake_id_015.jpg,fake,fake,rejected,0.24,fake,rejected,1.508476972579956,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+fake_id_016.jpg,fake,fake,rejected,0.23,fake,rejected,1.483363151550293,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+fake_id_017.jpg,fake,fake,rejected,0.27,fake,rejected,1.483363151550293,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+fake_id_018.jpg,fake,fake,rejected,0.23,fake,rejected,1.483363151550293,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+fake_id_019.jpg,fake,fake,rejected,0.26,fake,rejected,1.483363151550293,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+fake_id_020.jpg,fake,fake,rejected,0.23,fake,rejected,1.4916174411773682,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+fake_id_021.jpg,fake,fake,rejected,0.2,fake,rejected,1.399742841720581,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+fake_id_022.jpg,fake,fake,rejected,0.25,fake,rejected,1.399742841720581,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+fake_id_023.jpg,fake,fake,rejected,0.29,fake,rejected,1.399742841720581,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True
+fake_id_024.jpg,fake,fake,rejected,0.22,fake,rejected,1.399742841720581,Low confidence - likely fake or manipulated - Missing required fields - College not in approved list,success,True

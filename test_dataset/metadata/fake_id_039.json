@@ -1,0 +1,14 @@
+{
+  "category": "fake",
+  "college": "MIT India",
+  "name": "Ananya Gupta",
+  "roll_no": "4Y49",
+  "fake_type": "fake_college",
+  "issues": [
+    "fake_college",
+    "poor_design",
+    "suspicious_fields"
+  ],
+  "expected_label": "fake",
+  "expected_status": "rejected"
+}

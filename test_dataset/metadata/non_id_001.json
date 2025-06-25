@@ -1,0 +1,10 @@
+{
+  "category": "fake",
+  "fake_type": "non_id",
+  "issues": [
+    "not_an_id",
+    "inappropriate_content"
+  ],
+  "expected_label": "fake",
+  "expected_status": "rejected"
+}

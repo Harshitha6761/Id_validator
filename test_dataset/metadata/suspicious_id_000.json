@@ -1,0 +1,13 @@
+{
+  "category": "suspicious",
+  "college": "VIT University",
+  "name": "Meera Joshi",
+  "roll_no": "90CS666",
+  "issues": [
+    "poor_quality",
+    "unusual_dimensions",
+    "low_contrast"
+  ],
+  "expected_label": "suspicious",
+  "expected_status": "manual_review"
+}

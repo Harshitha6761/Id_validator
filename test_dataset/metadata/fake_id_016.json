@@ -1,0 +1,14 @@
+{
+  "category": "fake",
+  "college": "Yale University Pune",
+  "name": "Riya Malhotra",
+  "roll_no": "9X23",
+  "fake_type": "fake_college",
+  "issues": [
+    "fake_college",
+    "poor_design",
+    "suspicious_fields"
+  ],
+  "expected_label": "fake",
+  "expected_status": "rejected"
+}

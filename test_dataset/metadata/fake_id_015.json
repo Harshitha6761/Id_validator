@@ -1,0 +1,14 @@
+{
+  "category": "fake",
+  "college": "Stanford University Delhi",
+  "name": "Riya Malhotra",
+  "roll_no": "2X70",
+  "fake_type": "fake_college",
+  "issues": [
+    "fake_college",
+    "poor_design",
+    "suspicious_fields"
+  ],
+  "expected_label": "fake",
+  "expected_status": "rejected"
+}

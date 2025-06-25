@@ -1,0 +1,14 @@
+{
+  "category": "fake",
+  "college": "Oxford College Mumbai",
+  "name": "Riya Malhotra",
+  "roll_no": "3622450",
+  "fake_type": "fake_college",
+  "issues": [
+    "fake_college",
+    "poor_design",
+    "suspicious_fields"
+  ],
+  "expected_label": "fake",
+  "expected_status": "rejected"
+}

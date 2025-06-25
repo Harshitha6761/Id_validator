@@ -1,0 +1,14 @@
+{
+  "category": "fake",
+  "college": "IIT Madras",
+  "name": "Akash Pandey",
+  "roll_no": "5964207",
+  "fake_type": "template_mismatch",
+  "issues": [
+    "template_mismatch",
+    "poor_design",
+    "suspicious_fields"
+  ],
+  "expected_label": "fake",
+  "expected_status": "rejected"
+}

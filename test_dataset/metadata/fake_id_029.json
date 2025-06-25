@@ -1,0 +1,14 @@
+{
+  "category": "fake",
+  "college": "BITS Pilani",
+  "name": "Meera Joshi",
+  "roll_no": "8X41",
+  "fake_type": "template_mismatch",
+  "issues": [
+    "template_mismatch",
+    "poor_design",
+    "suspicious_fields"
+  ],
+  "expected_label": "fake",
+  "expected_status": "rejected"
+}

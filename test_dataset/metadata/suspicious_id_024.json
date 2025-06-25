@@ -1,0 +1,13 @@
+{
+  "category": "suspicious",
+  "college": "SRM University",
+  "name": "Sneha Singh",
+  "roll_no": "22CS731",
+  "issues": [
+    "poor_quality",
+    "unusual_dimensions",
+    "low_contrast"
+  ],
+  "expected_label": "suspicious",
+  "expected_status": "manual_review"
+}

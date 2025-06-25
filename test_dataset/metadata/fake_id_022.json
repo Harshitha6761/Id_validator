@@ -1,0 +1,14 @@
+{
+  "category": "fake",
+  "college": "BITS Pilani",
+  "name": "Priya Patel",
+  "roll_no": "5103433",
+  "fake_type": "template_mismatch",
+  "issues": [
+    "template_mismatch",
+    "poor_design",
+    "suspicious_fields"
+  ],
+  "expected_label": "fake",
+  "expected_status": "rejected"
+}

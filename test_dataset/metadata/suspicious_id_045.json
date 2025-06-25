@@ -1,0 +1,13 @@
+{
+  "category": "suspicious",
+  "college": "NIT Warangal",
+  "name": "Nikhil Desai",
+  "roll_no": "85CS345",
+  "issues": [
+    "poor_quality",
+    "unusual_dimensions",
+    "low_contrast"
+  ],
+  "expected_label": "suspicious",
+  "expected_status": "manual_review"
+}

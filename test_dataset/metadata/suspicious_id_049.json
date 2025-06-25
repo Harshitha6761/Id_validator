@@ -1,0 +1,13 @@
+{
+  "category": "suspicious",
+  "college": "IIT Bombay",
+  "name": "Karthik Nair",
+  "roll_no": "40EC623",
+  "issues": [
+    "poor_quality",
+    "unusual_dimensions",
+    "low_contrast"
+  ],
+  "expected_label": "suspicious",
+  "expected_status": "manual_review"
+}

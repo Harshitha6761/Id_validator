@@ -1,0 +1,14 @@
+{
+  "category": "fake",
+  "college": "Cambridge Institute",
+  "name": "Ananya Gupta",
+  "roll_no": "5Y77",
+  "fake_type": "fake_college",
+  "issues": [
+    "fake_college",
+    "poor_design",
+    "suspicious_fields"
+  ],
+  "expected_label": "fake",
+  "expected_status": "rejected"
+}
