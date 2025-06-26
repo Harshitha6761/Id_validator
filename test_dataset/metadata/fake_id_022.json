@@ -1,11 +1,11 @@
 {
   "category": "fake",
   "college": "BITS Pilani",
-  "name": "Priya Patel",
-  "roll_no": "5103433",
-  "fake_type": "template_mismatch",
+  "name": "Akash Pandey",
+  "roll_no": "9Z24",
+  "fake_type": "poor_forgery",
   "issues": [
-    "template_mismatch",
+    "poor_forgery",
     "poor_design",
     "suspicious_fields"
   ],

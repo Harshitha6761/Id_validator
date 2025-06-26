@@ -1,11 +1,11 @@
 {
   "category": "fake",
-  "college": "SRM University",
-  "name": "Riya Malhotra",
-  "roll_no": "8021417",
-  "fake_type": "template_mismatch",
+  "college": "IIT Delhi",
+  "name": "Ananya Gupta",
+  "roll_no": "1970187",
+  "fake_type": "poor_forgery",
   "issues": [
-    "template_mismatch",
+    "poor_forgery",
     "poor_design",
     "suspicious_fields"
   ],

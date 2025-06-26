@@ -1,8 +1,8 @@
 {
   "category": "suspicious",
-  "college": "BITS Pilani",
-  "name": "Ananya Gupta",
-  "roll_no": "93CS906",
+  "college": "IIT Bombay",
+  "name": "Meera Joshi",
+  "roll_no": "40CS925",
   "issues": [
     "poor_quality",
     "unusual_dimensions",

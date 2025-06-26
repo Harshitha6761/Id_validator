@@ -1,11 +1,11 @@
 {
   "category": "fake",
-  "college": "Anna University",
-  "name": "Riya Malhotra",
-  "roll_no": "5Z46",
-  "fake_type": "template_mismatch",
+  "college": "MIT India",
+  "name": "Arjun Sharma",
+  "roll_no": "4Y54",
+  "fake_type": "fake_college",
   "issues": [
-    "template_mismatch",
+    "fake_college",
     "poor_design",
     "suspicious_fields"
   ],

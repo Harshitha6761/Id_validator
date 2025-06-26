@@ -1,11 +1,11 @@
 {
   "category": "fake",
-  "college": "Stanford University Delhi",
-  "name": "Riya Malhotra",
-  "roll_no": "2X70",
-  "fake_type": "fake_college",
+  "college": "Anna University",
+  "name": "Pooja Agarwal",
+  "roll_no": "9444150",
+  "fake_type": "template_mismatch",
   "issues": [
-    "fake_college",
+    "template_mismatch",
     "poor_design",
     "suspicious_fields"
   ],

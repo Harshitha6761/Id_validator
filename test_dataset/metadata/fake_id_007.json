@@ -1,11 +1,11 @@
 {
   "category": "fake",
-  "college": "NIT Warangal",
-  "name": "Ananya Gupta",
-  "roll_no": "2Z46",
-  "fake_type": "poor_forgery",
+  "college": "VIT University",
+  "name": "Nikhil Desai",
+  "roll_no": "7715486",
+  "fake_type": "template_mismatch",
   "issues": [
-    "poor_forgery",
+    "template_mismatch",
     "poor_design",
     "suspicious_fields"
   ],

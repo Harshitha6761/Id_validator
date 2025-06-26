@@ -1,10 +1,10 @@
 {
   "category": "genuine",
   "college": "IIT Bombay",
-  "name": "Rohit Kumar",
-  "roll_no": "89EC4140",
-  "course": "MBA",
-  "year": "2022",
+  "name": "Suresh Iyer",
+  "roll_no": "93CS5295",
+  "course": "M.Sc Data Science",
+  "year": "2023",
   "expected_label": "genuine",
   "expected_status": "approved"
 }

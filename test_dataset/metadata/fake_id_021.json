@@ -1,11 +1,11 @@
 {
   "category": "fake",
-  "college": "VIT University",
-  "name": "Riya Malhotra",
-  "roll_no": "4342285",
-  "fake_type": "poor_forgery",
+  "college": "Osmania University",
+  "name": "Priya Patel",
+  "roll_no": "3542629",
+  "fake_type": "template_mismatch",
   "issues": [
-    "poor_forgery",
+    "template_mismatch",
     "poor_design",
     "suspicious_fields"
   ],

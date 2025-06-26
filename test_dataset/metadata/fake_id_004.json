@@ -1,11 +1,11 @@
 {
   "category": "fake",
-  "college": "Oxford College Mumbai",
-  "name": "Riya Malhotra",
-  "roll_no": "3622450",
-  "fake_type": "fake_college",
+  "college": "NIT Warangal",
+  "name": "Aditya Verma",
+  "roll_no": "5115862",
+  "fake_type": "template_mismatch",
   "issues": [
-    "fake_college",
+    "template_mismatch",
     "poor_design",
     "suspicious_fields"
   ],

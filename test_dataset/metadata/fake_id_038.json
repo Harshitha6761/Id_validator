@@ -1,11 +1,11 @@
 {
   "category": "fake",
-  "college": "BITS Pilani",
-  "name": "Priya Patel",
-  "roll_no": "2X57",
-  "fake_type": "poor_forgery",
+  "college": "Harvard College India",
+  "name": "Sneha Singh",
+  "roll_no": "9692016",
+  "fake_type": "fake_college",
   "issues": [
-    "poor_forgery",
+    "fake_college",
     "poor_design",
     "suspicious_fields"
   ],

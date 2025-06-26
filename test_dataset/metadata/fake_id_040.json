@@ -1,11 +1,11 @@
 {
   "category": "fake",
-  "college": "Cambridge Institute",
-  "name": "Riya Malhotra",
-  "roll_no": "2Z72",
-  "fake_type": "fake_college",
+  "college": "Anna University",
+  "name": "Suresh Iyer",
+  "roll_no": "1Y96",
+  "fake_type": "poor_forgery",
   "issues": [
-    "fake_college",
+    "poor_forgery",
     "poor_design",
     "suspicious_fields"
   ],

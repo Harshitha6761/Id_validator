@@ -1,11 +1,11 @@
 {
   "category": "fake",
-  "college": "Cambridge Institute",
-  "name": "Vikram Reddy",
-  "roll_no": "5Y68",
-  "fake_type": "fake_college",
+  "college": "SRM University",
+  "name": "Arjun Sharma",
+  "roll_no": "7Y36",
+  "fake_type": "poor_forgery",
   "issues": [
-    "fake_college",
+    "poor_forgery",
     "poor_design",
     "suspicious_fields"
   ],

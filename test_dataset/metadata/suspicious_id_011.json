@@ -1,8 +1,8 @@
 {
   "category": "suspicious",
-  "college": "SRM University",
-  "name": "Rohit Kumar",
-  "roll_no": "46CS813",
+  "college": "IIT Delhi",
+  "name": "Priya Patel",
+  "roll_no": "63CS205",
   "issues": [
     "poor_quality",
     "unusual_dimensions",

@@ -1,10 +1,10 @@
 {
   "category": "genuine",
-  "college": "IIT Madras",
-  "name": "Meera Joshi",
-  "roll_no": "42ME4186",
-  "course": "B.Sc Computer Science",
-  "year": "2022",
+  "college": "SRM University",
+  "name": "Kavya Rao",
+  "roll_no": "25CS6991",
+  "course": "B.Tech Computer Science",
+  "year": "2023",
   "expected_label": "genuine",
   "expected_status": "approved"
 }

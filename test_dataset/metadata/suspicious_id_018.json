@@ -1,8 +1,8 @@
 {
   "category": "suspicious",
-  "college": "IIT Delhi",
-  "name": "Pooja Agarwal",
-  "roll_no": "34EC918",
+  "college": "VIT University",
+  "name": "Aditya Verma",
+  "roll_no": "93CS500",
   "issues": [
     "poor_quality",
     "unusual_dimensions",

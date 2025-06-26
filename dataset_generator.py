@@ -11,11 +11,15 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance
 import io
 from typing import List, Dict, Any
 import numpy as np
+import glob
 
 class IDCardDatasetGenerator:
-    def __init__(self, output_dir="test_dataset"):
+    def __init__(self, output_dir="test_dataset", photos_dir=None):
         self.output_dir = output_dir
+        self.photos_dir = photos_dir
+        self.custom_photos = []
         self.create_directories()
+        self.load_custom_photos()
         
         # Sample data for generating realistic IDs
         self.colleges = [
@@ -51,6 +55,73 @@ class IDCardDatasetGenerator:
         
         os.makedirs(os.path.join(self.output_dir, "metadata"), exist_ok=True)
     
+    def load_custom_photos(self):
+        """Load custom photos from the photos directory"""
+        if not self.photos_dir or not os.path.exists(self.photos_dir):
+            print("No custom photos directory provided or directory doesn't exist.")
+            print("Will use synthetic photos instead.")
+            return
+        
+        # Supported image formats
+        extensions = ['*.jpg', '*.jpeg', '*.png', '*.bmp', '*.tiff']
+        photo_files = []
+        
+        for ext in extensions:
+            photo_files.extend(glob.glob(os.path.join(self.photos_dir, ext)))
+            photo_files.extend(glob.glob(os.path.join(self.photos_dir, ext.upper())))
+        
+        if not photo_files:
+            print(f"No image files found in {self.photos_dir}")
+            print("Will use synthetic photos instead.")
+            return
+        
+        print(f"Found {len(photo_files)} custom photos in {self.photos_dir}")
+        
+        # Load and preprocess photos
+        for photo_path in photo_files:
+            try:
+                photo = Image.open(photo_path)
+                # Convert to RGB if needed
+                if photo.mode != 'RGB':
+                    photo = photo.convert('RGB')
+                self.custom_photos.append(photo)
+            except Exception as e:
+                print(f"Error loading photo {photo_path}: {e}")
+        
+        print(f"Successfully loaded {len(self.custom_photos)} custom photos")
+    
+    def get_photo(self, size=(70, 70), quality="good"):
+        """Get a photo - either custom or synthetic"""
+        if self.custom_photos:
+            # Use a random custom photo
+            photo = random.choice(self.custom_photos).copy()
+            # Resize to required size
+            photo = photo.resize(size, Image.Resampling.LANCZOS)
+            
+            # Apply quality modifications based on the quality parameter
+            if quality == "poor":
+                # Add noise and blur for poor quality
+                img_array = np.array(photo)
+                noise = np.random.normal(0, 30, img_array.shape)
+                noisy_array = np.clip(img_array + noise, 0, 255).astype(np.uint8)
+                photo = Image.fromarray(noisy_array)
+                photo = photo.filter(ImageFilter.GaussianBlur(radius=1.0))
+                
+                # Reduce contrast
+                enhancer = ImageEnhance.Contrast(photo)
+                photo = enhancer.enhance(0.7)
+                
+            elif quality == "fake":
+                # Add fake elements to the photo
+                draw = ImageDraw.Draw(photo)
+                font = self.get_default_font(max(8, size[0]//10))
+                draw.text((size[0]//4, size[1]//2), "FAKE", fill=(255, 0, 0), font=font)
+                
+            return photo
+        else:
+            # Fall back to synthetic photo generation
+            return self.generate_synthetic_photo(size, quality)
+    
     def get_default_font(self, size=20):
         """Get a default font or create a simple one"""
         try:
@@ -64,6 +135,115 @@ class IDCardDatasetGenerator:
                     return ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", size)
                 except:
                     return ImageFont.load_default()
+    
+    def generate_synthetic_photo(self, size=(70, 70), quality="good"):
+        """Generate a synthetic photo for ID cards (fallback method)"""
+        width, height = size
+        
+        # Create base image with skin tone
+        skin_tones = [
+            (255, 220, 177),  # Light skin
+            (255, 205, 148),  # Medium light skin
+            (234, 192, 134),  # Medium skin
+            (213, 154, 107),  # Medium dark skin
+            (184, 134, 95),   # Dark skin
+        ]
+        
+        bg_color = random.choice(skin_tones)
+        image = Image.new('RGB', (width, height), bg_color)
+        draw = ImageDraw.Draw(image)
+        
+        if quality == "good":
+            # Generate realistic face features
+            # Head shape (oval)
+            head_width = int(width * 0.8)
+            head_height = int(height * 0.7)
+            head_x = (width - head_width) // 2
+            head_y = (height - head_height) // 2 - 5
+            
+            # Slightly darker skin for head
+            head_color = tuple(max(0, c - 20) for c in bg_color)
+            draw.ellipse([head_x, head_y, head_x + head_width, head_y + head_height], 
+                        fill=head_color, outline=(0, 0, 0), width=1)
+            
+            # Eyes
+            eye_size = max(3, width // 20)
+            eye_y = head_y + head_height // 3
+            left_eye_x = head_x + head_width // 3
+            right_eye_x = head_x + 2 * head_width // 3
+            
+            draw.ellipse([left_eye_x - eye_size, eye_y - eye_size, 
+                         left_eye_x + eye_size, eye_y + eye_size], fill=(255, 255, 255))
+            draw.ellipse([right_eye_x - eye_size, eye_y - eye_size, 
+                         right_eye_x + eye_size, eye_y + eye_size], fill=(255, 255, 255))
+            
+            # Pupils
+            pupil_size = max(1, eye_size // 2)
+            draw.ellipse([left_eye_x - pupil_size, eye_y - pupil_size,
+                         left_eye_x + pupil_size, eye_y + pupil_size], fill=(0, 0, 0))
+            draw.ellipse([right_eye_x - pupil_size, eye_y - pupil_size,
+                         right_eye_x + pupil_size, eye_y + pupil_size], fill=(0, 0, 0))
+            
+            # Nose (simple line)
+            nose_x = head_x + head_width // 2
+            nose_y = eye_y + eye_size + 5
+            draw.line([nose_x, nose_y, nose_x, nose_y + 8], fill=(0, 0, 0), width=1)
+            
+            # Mouth (simple curve)
+            mouth_x = nose_x
+            mouth_y = nose_y + 12
+            mouth_width = 8
+            draw.arc([mouth_x - mouth_width, mouth_y - 3, 
+                     mouth_x + mouth_width, mouth_y + 3], 0, 180, fill=(0, 0, 0), width=1)
+            
+            # Hair (simple shape)
+            hair_color = random.choice([(139, 69, 19), (160, 82, 45), (0, 0, 0), (165, 42, 42)])
+            hair_width = int(head_width * 1.1)
+            hair_height = int(head_height * 0.3)
+            hair_x = head_x - (hair_width - head_width) // 2
+            hair_y = head_y - hair_height // 2
+            
+            draw.ellipse([hair_x, hair_y, hair_x + hair_width, hair_y + hair_height], 
+                        fill=hair_color)
+            
+        elif quality == "poor":
+            # Generate poor quality photo (blurry, low contrast)
+            # Simple face outline
+            face_width = int(width * 0.6)
+            face_height = int(height * 0.6)
+            face_x = (width - face_width) // 2
+            face_y = (height - face_height) // 2
+            
+            draw.ellipse([face_x, face_y, face_x + face_width, face_y + face_height], 
+                        fill=tuple(max(0, c - 30) for c in bg_color), outline=(0, 0, 0), width=2)
+            
+            # Simple features
+            eye_y = face_y + face_height // 3
+            draw.ellipse([face_x + 10, eye_y - 2, face_x + 20, eye_y + 2], fill=(255, 255, 255))
+            draw.ellipse([face_x + face_width - 20, eye_y - 2, face_x + face_width - 10, eye_y + 2], fill=(255, 255, 255))
+            
+            # Add noise and blur
+            img_array = np.array(image)
+            noise = np.random.normal(0, 30, img_array.shape)
+            noisy_array = np.clip(img_array + noise, 0, 255).astype(np.uint8)
+            image = Image.fromarray(noisy_array)
+            image = image.filter(ImageFilter.GaussianBlur(radius=1.0))
+            
+        else:  # fake quality
+            # Generate obviously fake photo
+            # Random colored shapes
+            colors = [(255, 0, 0), (0, 255, 0), (0, 0, 255), (255, 255, 0), (255, 0, 255)]
+            for _ in range(3):
+                x1, y1 = random.randint(0, width//2), random.randint(0, height//2)
+                x2, y2 = random.randint(width//2, width), random.randint(height//2, height)
+                color = random.choice(colors)
+                draw.ellipse([x1, y1, x2, y2], fill=color)
+            
+            # Add text overlay
+            font = self.get_default_font(max(8, width//10))
+            draw.text((width//4, height//2), "FAKE", fill=(255, 0, 0), font=font)
+        
+        return image
     
     def generate_genuine_id(self, index: int) -> Dict[str, Any]:
         """Generate a genuine-looking ID card"""
@@ -97,12 +277,15 @@ class IDCardDatasetGenerator:
         # College name
         draw.text((20, 55), college, fill=header_color, font=header_font)
         
-        # Photo placeholder (realistic position)
-        photo_x, photo_y = 20, 80
+        # Generate and place photo
         photo_size = 70
+        photo = self.get_photo(size=(photo_size, photo_size), quality="good")
+        photo_x, photo_y = 20, 80
+        image.paste(photo, (photo_x, photo_y))
+        
+        # Add photo border
         draw.rectangle([photo_x, photo_y, photo_x + photo_size, photo_y + photo_size], 
-                      outline=(200, 200, 200), width=2)
-        draw.text((photo_x + 15, photo_y + 25), "PHOTO", fill=(150, 150, 150), font=text_font)
+                      outline=(100, 100, 100), width=2)
         
         # Student details
         details_x = photo_x + photo_size + 20
@@ -158,8 +341,14 @@ class IDCardDatasetGenerator:
         name = random.choice(self.names)
         roll_no = f"{random.randint(10, 99)}{random.choice(['CS', 'EC'])}{random.randint(100, 999)}"  # Shorter roll no
         
+        # Generate poor quality photo
+        photo_size = min(50, width//3, height//2)
+        photo = self.get_photo(size=(photo_size, photo_size), quality="poor")
+        photo_x, photo_y = 10, 10
+        image.paste(photo, (photo_x, photo_y))
+        
         # Cramped layout
-        y_offset = 10
+        y_offset = photo_y + photo_size + 5
         texts = [
             "ID CARD",
             college[:15] + "..." if len(college) > 15 else college,  # Truncated
@@ -233,10 +422,16 @@ class IDCardDatasetGenerator:
         else:
             roll_no = str(random.randint(1000000, 9999999))  # Too long
         
+        # Generate fake photo
+        photo_size = 60
+        photo = self.get_photo(size=(photo_size, photo_size), quality="fake")
+        photo_x, photo_y = 20, 60
+        image.paste(photo, (photo_x, photo_y))
+        
         # Poor layout
         draw.text((width//2 - 60, 20), "STUDENT CARD", fill=(255, 0, 0), font=title_font)  # Wrong title
         
-        y_offset = 60
+        y_offset = photo_y + photo_size + 10
         texts = [
             college,
             f"Student Name: {name}",
@@ -406,7 +601,11 @@ class IDCardDatasetGenerator:
 
 def main():
     """Generate the test dataset"""
-    generator = IDCardDatasetGenerator()
+    # You can specify a directory containing your custom photos
+    # photos_dir = "path/to/your/photos"  # Uncomment and set your photos directory
+    
+    # For now, using synthetic photos (no photos_dir specified)
+    generator = IDCardDatasetGenerator(photos_dir=None)
     
     # Generate 50 samples of each category (150 total)
     dataset = generator.generate_dataset(num_each_category=50)

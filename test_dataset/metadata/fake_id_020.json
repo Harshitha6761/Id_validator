@@ -1,11 +1,11 @@
 {
   "category": "fake",
   "college": "IIT Bombay",
-  "name": "Akash Pandey",
-  "roll_no": "6822517",
-  "fake_type": "poor_forgery",
+  "name": "Sneha Singh",
+  "roll_no": "1327788",
+  "fake_type": "template_mismatch",
   "issues": [
-    "poor_forgery",
+    "template_mismatch",
     "poor_design",
     "suspicious_fields"
   ],

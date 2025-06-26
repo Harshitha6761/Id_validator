@@ -1,0 +1,14 @@
+{
+  "category": "fake",
+  "college": "NIT Warangal",
+  "name": "Sneha Singh",
+  "roll_no": "1782100",
+  "fake_type": "poor_forgery",
+  "issues": [
+    "poor_forgery",
+    "poor_design",
+    "suspicious_fields"
+  ],
+  "expected_label": "fake",
+  "expected_status": "rejected"
+}

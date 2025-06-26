@@ -1,11 +1,11 @@
 {
   "category": "fake",
-  "college": "Osmania University",
-  "name": "Rohit Kumar",
-  "roll_no": "1545335",
-  "fake_type": "template_mismatch",
+  "college": "IIT Delhi",
+  "name": "Karthik Nair",
+  "roll_no": "1334151",
+  "fake_type": "poor_forgery",
   "issues": [
-    "template_mismatch",
+    "poor_forgery",
     "poor_design",
     "suspicious_fields"
   ],

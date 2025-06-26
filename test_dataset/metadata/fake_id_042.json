@@ -1,11 +1,11 @@
 {
   "category": "fake",
-  "college": "JNTU Hyderabad",
-  "name": "Priya Patel",
-  "roll_no": "2080931",
-  "fake_type": "template_mismatch",
+  "college": "Cambridge Institute",
+  "name": "Sneha Singh",
+  "roll_no": "3133028",
+  "fake_type": "fake_college",
   "issues": [
-    "template_mismatch",
+    "fake_college",
     "poor_design",
     "suspicious_fields"
   ],

@@ -1,11 +1,11 @@
 {
   "category": "fake",
-  "college": "NIT Warangal",
-  "name": "Kavya Rao",
-  "roll_no": "9Z12",
-  "fake_type": "poor_forgery",
+  "college": "Stanford University Delhi",
+  "name": "Arjun Sharma",
+  "roll_no": "9297674",
+  "fake_type": "fake_college",
   "issues": [
-    "poor_forgery",
+    "fake_college",
     "poor_design",
     "suspicious_fields"
   ],

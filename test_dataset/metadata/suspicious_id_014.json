@@ -1,8 +1,8 @@
 {
   "category": "suspicious",
-  "college": "VIT University",
-  "name": "Ananya Gupta",
-  "roll_no": "75EC101",
+  "college": "IIT Bombay",
+  "name": "Priya Patel",
+  "roll_no": "70CS636",
   "issues": [
     "poor_quality",
     "unusual_dimensions",

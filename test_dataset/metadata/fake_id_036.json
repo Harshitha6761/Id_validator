@@ -1,11 +1,11 @@
 {
   "category": "fake",
-  "college": "Osmania University",
-  "name": "Priya Patel",
-  "roll_no": "6934133",
-  "fake_type": "poor_forgery",
+  "college": "Cambridge Institute",
+  "name": "Nikhil Desai",
+  "roll_no": "5X95",
+  "fake_type": "fake_college",
   "issues": [
-    "poor_forgery",
+    "fake_college",
     "poor_design",
     "suspicious_fields"
   ],

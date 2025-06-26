@@ -1,11 +1,11 @@
 {
   "category": "fake",
-  "college": "Anna University",
-  "name": "Nikhil Desai",
-  "roll_no": "9040072",
-  "fake_type": "poor_forgery",
+  "college": "Oxford College Mumbai",
+  "name": "Priya Patel",
+  "roll_no": "8678939",
+  "fake_type": "fake_college",
   "issues": [
-    "poor_forgery",
+    "fake_college",
     "poor_design",
     "suspicious_fields"
   ],

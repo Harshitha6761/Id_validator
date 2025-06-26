@@ -1,8 +1,8 @@
 {
   "category": "suspicious",
-  "college": "IIT Delhi",
-  "name": "Sneha Singh",
-  "roll_no": "43EC189",
+  "college": "Anna University",
+  "name": "Kavya Rao",
+  "roll_no": "19CS223",
   "issues": [
     "poor_quality",
     "unusual_dimensions",

@@ -1,11 +1,11 @@
 {
   "category": "fake",
-  "college": "MIT India",
-  "name": "Akash Pandey",
-  "roll_no": "7Z21",
-  "fake_type": "fake_college",
+  "college": "Osmania University",
+  "name": "Ananya Gupta",
+  "roll_no": "6902596",
+  "fake_type": "template_mismatch",
   "issues": [
-    "fake_college",
+    "template_mismatch",
     "poor_design",
     "suspicious_fields"
   ],

@@ -1,11 +1,11 @@
 {
   "category": "fake",
-  "college": "IIT Madras",
-  "name": "Akash Pandey",
-  "roll_no": "5964207",
-  "fake_type": "template_mismatch",
+  "college": "SRM University",
+  "name": "Rohit Kumar",
+  "roll_no": "8485428",
+  "fake_type": "poor_forgery",
   "issues": [
-    "template_mismatch",
+    "poor_forgery",
     "poor_design",
     "suspicious_fields"
   ],

@@ -1,0 +1,14 @@
+{
+  "category": "fake",
+  "college": "SRM University",
+  "name": "Akash Pandey",
+  "roll_no": "6Y51",
+  "fake_type": "template_mismatch",
+  "issues": [
+    "template_mismatch",
+    "poor_design",
+    "suspicious_fields"
+  ],
+  "expected_label": "fake",
+  "expected_status": "rejected"
+}

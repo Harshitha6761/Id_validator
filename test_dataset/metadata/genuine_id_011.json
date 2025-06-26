@@ -1,10 +1,10 @@
 {
   "category": "genuine",
-  "college": "IIT Bombay",
-  "name": "Sneha Singh",
-  "roll_no": "57CS6290",
-  "course": "M.Sc Data Science",
-  "year": "2024",
+  "college": "JNTU Hyderabad",
+  "name": "Vikram Reddy",
+  "roll_no": "14EE4022",
+  "course": "M.Com",
+  "year": "2022",
   "expected_label": "genuine",
   "expected_status": "approved"
 }

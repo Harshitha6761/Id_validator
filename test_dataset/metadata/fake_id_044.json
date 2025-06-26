@@ -1,0 +1,14 @@
+{
+  "category": "fake",
+  "college": "Harvard College India",
+  "name": "Priya Patel",
+  "roll_no": "3204358",
+  "fake_type": "fake_college",
+  "issues": [
+    "fake_college",
+    "poor_design",
+    "suspicious_fields"
+  ],
+  "expected_label": "fake",
+  "expected_status": "rejected"
+}

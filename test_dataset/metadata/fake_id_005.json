@@ -1,11 +1,11 @@
 {
   "category": "fake",
-  "college": "IIT Bombay",
-  "name": "Pooja Agarwal",
-  "roll_no": "6Y61",
-  "fake_type": "poor_forgery",
+  "college": "Harvard College India",
+  "name": "Karthik Nair",
+  "roll_no": "6726046",
+  "fake_type": "fake_college",
   "issues": [
-    "poor_forgery",
+    "fake_college",
     "poor_design",
     "suspicious_fields"
   ],

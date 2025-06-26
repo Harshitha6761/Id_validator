@@ -1,11 +1,11 @@
 {
   "category": "fake",
-  "college": "BITS Pilani",
-  "name": "Meera Joshi",
-  "roll_no": "8X41",
-  "fake_type": "template_mismatch",
+  "college": "IIT Bombay",
+  "name": "Nikhil Desai",
+  "roll_no": "3X49",
+  "fake_type": "poor_forgery",
   "issues": [
-    "template_mismatch",
+    "poor_forgery",
     "poor_design",
     "suspicious_fields"
   ],

@@ -1,11 +1,11 @@
 {
   "category": "fake",
-  "college": "VIT University",
-  "name": "Pooja Agarwal",
-  "roll_no": "2X94",
-  "fake_type": "template_mismatch",
+  "college": "SRM University",
+  "name": "Akash Pandey",
+  "roll_no": "7885765",
+  "fake_type": "poor_forgery",
   "issues": [
-    "template_mismatch",
+    "poor_forgery",
     "poor_design",
     "suspicious_fields"
   ],

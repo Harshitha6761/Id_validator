@@ -1,8 +1,8 @@
 {
   "category": "suspicious",
-  "college": "IIT Delhi",
-  "name": "Meera Joshi",
-  "roll_no": "52CS142",
+  "college": "IIT Bombay",
+  "name": "Kavya Rao",
+  "roll_no": "53CS291",
   "issues": [
     "poor_quality",
     "unusual_dimensions",

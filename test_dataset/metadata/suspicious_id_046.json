@@ -1,8 +1,8 @@
 {
   "category": "suspicious",
-  "college": "Anna University",
-  "name": "Vikram Reddy",
-  "roll_no": "50CS768",
+  "college": "IIT Delhi",
+  "name": "Priya Patel",
+  "roll_no": "26CS571",
   "issues": [
     "poor_quality",
     "unusual_dimensions",

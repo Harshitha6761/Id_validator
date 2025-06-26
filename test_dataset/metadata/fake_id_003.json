@@ -1,11 +1,11 @@
 {
   "category": "fake",
-  "college": "Harvard College India",
-  "name": "Kavya Rao",
-  "roll_no": "4776559",
-  "fake_type": "fake_college",
+  "college": "IIT Bombay",
+  "name": "Riya Malhotra",
+  "roll_no": "7X54",
+  "fake_type": "template_mismatch",
   "issues": [
-    "fake_college",
+    "template_mismatch",
     "poor_design",
     "suspicious_fields"
   ],

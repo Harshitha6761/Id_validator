@@ -1,0 +1,14 @@
+{
+  "category": "fake",
+  "college": "Cambridge Institute",
+  "name": "Suresh Iyer",
+  "roll_no": "5337816",
+  "fake_type": "fake_college",
+  "issues": [
+    "fake_college",
+    "poor_design",
+    "suspicious_fields"
+  ],
+  "expected_label": "fake",
+  "expected_status": "rejected"
+}

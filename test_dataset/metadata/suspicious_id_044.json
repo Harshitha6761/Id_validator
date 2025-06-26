@@ -1,8 +1,8 @@
 {
   "category": "suspicious",
-  "college": "VIT University",
-  "name": "Vikram Reddy",
-  "roll_no": "93CS523",
+  "college": "IIT Delhi",
+  "name": "Kavya Rao",
+  "roll_no": "73CS847",
   "issues": [
     "poor_quality",
     "unusual_dimensions",

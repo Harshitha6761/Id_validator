@@ -1,8 +1,8 @@
 {
   "category": "suspicious",
-  "college": "IIT Delhi",
+  "college": "Osmania University",
   "name": "Ananya Gupta",
-  "roll_no": "89CS216",
+  "roll_no": "87CS103",
   "issues": [
     "poor_quality",
     "unusual_dimensions",

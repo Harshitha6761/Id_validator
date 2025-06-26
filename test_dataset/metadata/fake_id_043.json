@@ -1,0 +1,14 @@
+{
+  "category": "fake",
+  "college": "MIT India",
+  "name": "Karthik Nair",
+  "roll_no": "1X91",
+  "fake_type": "fake_college",
+  "issues": [
+    "fake_college",
+    "poor_design",
+    "suspicious_fields"
+  ],
+  "expected_label": "fake",
+  "expected_status": "rejected"
+}

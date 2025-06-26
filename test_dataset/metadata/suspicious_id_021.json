@@ -1,8 +1,8 @@
 {
   "category": "suspicious",
-  "college": "BITS Pilani",
-  "name": "Karthik Nair",
-  "roll_no": "60CS792",
+  "college": "Anna University",
+  "name": "Arjun Sharma",
+  "roll_no": "20CS287",
   "issues": [
     "poor_quality",
     "unusual_dimensions",

@@ -1,11 +1,11 @@
 {
   "category": "fake",
-  "college": "VIT University",
-  "name": "Riya Malhotra",
-  "roll_no": "1451616",
-  "fake_type": "poor_forgery",
+  "college": "NIT Warangal",
+  "name": "Aditya Verma",
+  "roll_no": "4X27",
+  "fake_type": "template_mismatch",
   "issues": [
-    "poor_forgery",
+    "template_mismatch",
     "poor_design",
     "suspicious_fields"
   ],

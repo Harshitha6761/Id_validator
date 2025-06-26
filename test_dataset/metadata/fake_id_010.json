@@ -1,0 +1,14 @@
+{
+  "category": "fake",
+  "college": "NIT Warangal",
+  "name": "Vikram Reddy",
+  "roll_no": "6445809",
+  "fake_type": "poor_forgery",
+  "issues": [
+    "poor_forgery",
+    "poor_design",
+    "suspicious_fields"
+  ],
+  "expected_label": "fake",
+  "expected_status": "rejected"
+}
