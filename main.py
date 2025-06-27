@@ -102,7 +102,9 @@ async def validate_id(request: IDValidationRequest):
         ocr_result = ocr_validator.validate(image)
         ocr_score = ocr_result['confidence']
         ocr_confidence = ocr_result.get('ocr_confidence', 0.0)
-        
+
+        # Print OCR extracted text for debugging
+        logger.info("\n--- OCR Extracted Text ---\n" + ocr_result.get('extracted_text', ''))
         logger.info(f"OCR validation score: {ocr_score}, OCR confidence: {ocr_confidence}")
         
         # Template matching (simplified)

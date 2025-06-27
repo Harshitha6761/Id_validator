@@ -5,6 +5,8 @@ import cv2
 import numpy as np
 import re
 from typing import Dict, List, Any
+import difflib
+import logging
 
 class OCRValidator:
     def __init__(self, config: Dict[str, Any]):
@@ -105,47 +107,57 @@ class OCRValidator:
         # Detect various fields
         detected_fields = {}
         
-        # Look for college name
-        college_found = False
+        # --- Robust College Name Matching ---
+        def normalize(s):
+            return ''.join(e for e in s.lower() if e.isalnum())
+        norm_text = normalize(text)
+        best_match = None
+        best_score = 0.0
         for college in self.approved_colleges:
-            if college.lower() in text_lower:
-                detected_fields['college'] = college
-                college_found = True
-                analysis['college_approved'] = True
-                break
+            norm_college = normalize(college)
+            seq = difflib.SequenceMatcher(None, norm_college, norm_text)
+            score = seq.find_longest_match(0, len(norm_college), 0, len(norm_text)).size / max(1, len(norm_college))
+            if score > best_score:
+                best_score = score
+                best_match = college
+        if best_score > 0.7:  # Allow for some OCR error
+            detected_fields['college'] = best_match
+            analysis['college_approved'] = True
         
-        # Look for roll number patterns
+        # --- Robust Roll Number Patterns ---
         roll_patterns = [
+            r'roll\s*(no|number|num|#)?[:\s-]*([A-Z0-9]+)',  # Roll No: ABC123
+            r'reg\s*(no|number|num|#)?[:\s-]*([A-Z0-9]+)',   # Reg No: XYZ456
             r'\b\d{2}[A-Z]{2}\d{4}\b',  # 12AB3456
             r'\b[A-Z]{2}\d{6}\b',       # AB123456
             r'\b\d{8,12}\b',            # 12345678
-            r'roll\s*no[:\s]*([A-Z0-9]+)', # Roll No: ABC123
         ]
-        
         for pattern in roll_patterns:
             matches = re.findall(pattern, text, re.IGNORECASE)
             if matches:
-                detected_fields['roll_number'] = matches[0]
+                if isinstance(matches[0], tuple):
+                    detected_fields['roll_number'] = matches[0][-1]
+                else:
+                    detected_fields['roll_number'] = matches[0]
                 break
         
-        # Look for name (usually appears near "Name:" or similar)
+        # --- Robust Name Patterns ---
         name_patterns = [
-            r'name[:\s]+([A-Za-z\s]+)',
-            r'student[:\s]+([A-Za-z\s]+)',
+            r'name[:\s-]+([A-Za-z\s]+)',
+            r'student[:\s-]+([A-Za-z\s]+)',
+            r'bearer[:\s-]+([A-Za-z\s]+)',
         ]
-        
         for pattern in name_patterns:
             matches = re.findall(pattern, text, re.IGNORECASE)
             if matches:
                 name = matches[0].strip()
-                if len(name) > 2 and len(name) < 50:  # Reasonable name length
+                if 2 < len(name) < 50:
                     detected_fields['name'] = name
                 break
         
-        # Look for year/course information
+        # Year/Course detection (unchanged)
         if re.search(r'\b(first|second|third|fourth|1st|2nd|3rd|4th)\s*(year|semester)', text_lower):
             detected_fields['year'] = True
-        
         if re.search(r'\b(engineering|btech|mtech|bsc|msc|mba|phd)\b', text_lower):
             detected_fields['course'] = True
         
@@ -154,10 +166,16 @@ class OCRValidator:
         # Check if required fields are present
         field_count = 0
         for field in self.required_fields:
-            if field in detected_fields or (field == 'college' and college_found):
+            if field in detected_fields or (field == 'college' and analysis['college_approved']):
                 field_count += 1
-        
         analysis['has_required_fields'] = field_count >= len(self.required_fields) - 1
+        
+        # --- Logging for debugging ---
+        logging.basicConfig(level=logging.INFO)
+        logger = logging.getLogger(__name__)
+        logger.info(f"OCR Extracted Text: {text}")
+        logger.info(f"Detected Fields: {detected_fields}")
+        logger.info(f"College Match Score: {best_score:.2f} ({best_match})")
         
         return analysis
     
